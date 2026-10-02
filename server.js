@@ -1,6 +1,6 @@
 const express = require("express");
 const cors = require("cors");
-const catalog = require("./models");
+const catalog = require("./catalog");
 
 const app = express();
 app.use(cors());
@@ -14,7 +14,7 @@ const findIn = (obj, key, keyFn = normalise) => {
   const name = Object.keys(obj).find((n) => keyFn(n) === k);
   return name ? [name, obj[name]] : [null, null];
 };
-const findModel = (key) => findIn(catalog, key, modelKey);
+const findModel = (key) => findIn(catalog.get(), key, modelKey);
 
 // Removes inactive models/variants/colours when ?active=true
 function activeOnly(model) {
@@ -45,7 +45,8 @@ function resolveImage({ model, variant, color }) {
 app.get("/", (req, res) => {
   res.json({
     name: "Vehicle Images API",
-    models: Object.keys(catalog).length,
+    models: Object.keys(catalog.get()).length,
+    dataSource: catalog.source(),
     endpoints: {
       "GET /api/models": "Full catalogue: model -> variants -> colours, each with an image. ?active=true hides inactive entries",
       "GET /api/models/:model": "One model with its variants and colours",
@@ -59,9 +60,9 @@ app.get("/", (req, res) => {
 app.get("/health", (req, res) => res.send("ok"));
 
 app.get("/api/models", (req, res) => {
-  if (req.query.active !== "true") return res.json(catalog);
+  if (req.query.active !== "true") return res.json(catalog.get());
   const filtered = {};
-  for (const [name, m] of Object.entries(catalog)) if (m.active) filtered[name] = activeOnly(m);
+  for (const [name, m] of Object.entries(catalog.get())) if (m.active) filtered[name] = activeOnly(m);
   res.json(filtered);
 });
 
@@ -94,6 +95,8 @@ app.get("/api/image/redirect", (req, res) => {
 });
 
 app.use((req, res) => res.status(404).json({ error: "Route not found" }));
+
+catalog.start();
 
 const PORT = process.env.PORT || 3000;
 app.listen(PORT, () => console.log(`Vehicle Images API running on port ${PORT}`));

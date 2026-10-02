@@ -43,7 +43,20 @@ Each colour's image is a photo of that colour where one was found. If there isn'
 
 Name matching ignores case, spaces and punctuation, and a leading "TVS" on model names is optional. If a variant or colour isn't found, `/api/image` falls back to the next level up, and `matched` says which level was used (`model`, `variant` or `color`).
 
-## Updating the data
+## Firebase (Firestore)
+
+When `FIREBASE_SERVICE_ACCOUNT` is set, the API reads the catalogue from the Firestore collection `models` and listens for changes. Edits made in Firestore (e.g. from an admin front end) appear in the API within seconds, with no redeploy. Without it, the API serves `models.js`.
+
+Each Firestore document is one model:
+`models/{model-slug}` → `{ name, order, active, image, variants: { ... } }`
+
+1. Firebase console → Project settings → Service accounts → **Generate new private key**. Save it as `service-account.json` in this folder (it's git-ignored and must never be committed).
+2. Upload the current catalogue: `npm run seed -- service-account.json`
+3. On Render → service → **Environment** → add `FIREBASE_SERVICE_ACCOUNT` and paste the whole contents of the JSON file as the value.
+
+`GET /` shows `"dataSource": "firestore"` once it's connected.
+
+## Updating the data (without Firebase)
 
 Edit `models.js`, then:
 
