@@ -1,28 +1,57 @@
 const express = require("express");
 const cors = require("cors");
-const models = require("./models");
+const catalog = require("./models");
 
 const app = express();
 app.use(cors());
 
-// Lookup key: case-insensitive, ignores extra spaces/punctuation differences
-const normalise = (s) => String(s).toLowerCase().replace(/[^a-z0-9]+/g, "");
-const bySlug = new Map(models.map((m) => [m.slug, m]));
-const byName = new Map(models.map((m) => [normalise(m.name), m]));
+// Lookup key: case-insensitive, ignores spaces/punctuation; a leading "TVS" is optional for models
+const normalise = (s) => String(s || "").toLowerCase().replace(/[^a-z0-9]+/g, "");
+const modelKey = (s) => normalise(s).replace(/^tvs/, "");
 
-function findModel(key) {
-  return bySlug.get(String(key).toLowerCase()) || byName.get(normalise(key)) || null;
+const findIn = (obj, key, keyFn = normalise) => {
+  const k = keyFn(key);
+  const name = Object.keys(obj).find((n) => keyFn(n) === k);
+  return name ? [name, obj[name]] : [null, null];
+};
+const findModel = (key) => findIn(catalog, key, modelKey);
+
+// Removes inactive models/variants/colours when ?active=true
+function activeOnly(model) {
+  const variants = {};
+  for (const [vName, v] of Object.entries(model.variants)) {
+    if (!v.active) continue;
+    const colors = Object.fromEntries(Object.entries(v.colors).filter(([, c]) => c.active));
+    variants[vName] = { ...v, colors };
+  }
+  return { ...model, variants };
+}
+
+// Resolves the most specific image available for model / variant / colour
+function resolveImage({ model, variant, color }) {
+  const [modelName, m] = findModel(model);
+  if (!m) return null;
+  const result = { model: modelName, variant: null, color: null, image: m.image, matched: "model" };
+  if (!variant) return result;
+  const [variantName, v] = findIn(m.variants, variant);
+  if (!v) return result;
+  Object.assign(result, { variant: variantName, image: v.image, matched: "variant" });
+  if (!color) return result;
+  const [colorName, c] = findIn(v.colors, color);
+  if (!c) return result;
+  return Object.assign(result, { color: colorName, image: c.image, matched: "color" });
 }
 
 app.get("/", (req, res) => {
   res.json({
     name: "Vehicle Images API",
-    total: models.length,
+    models: Object.keys(catalog).length,
     endpoints: {
-      "GET /api/models": "List all models. Query: ?search=jupiter  ?hasImage=true",
-      "GET /api/models/:slugOrName": "Get one model (slug like 'tvs-raider-disc' or exact name)",
-      "GET /api/image?model=NAME": "Get image URL for a model name (JSON)",
-      "GET /api/models/:slugOrName/image": "Redirects to the image — use directly in <img src>",
+      "GET /api/models": "Full catalogue: model -> variants -> colours, each with an image. ?active=true hides inactive entries",
+      "GET /api/models/:model": "One model with its variants and colours",
+      "GET /api/models/:model/variants/:variant": "One variant with its colours",
+      "GET /api/image?model=&variant=&color=": "Best image for the given model/variant/colour (variant and color optional)",
+      "GET /api/image/redirect?model=&variant=&color=": "Same lookup, redirects to the image — use directly in <img src>",
     },
   });
 });
@@ -30,34 +59,38 @@ app.get("/", (req, res) => {
 app.get("/health", (req, res) => res.send("ok"));
 
 app.get("/api/models", (req, res) => {
-  let result = models;
-  if (req.query.search) {
-    const q = normalise(req.query.search);
-    result = result.filter((m) => normalise(m.name).includes(q));
-  }
-  if (req.query.hasImage === "true") result = result.filter((m) => m.image);
-  if (req.query.hasImage === "false") result = result.filter((m) => !m.image);
-  res.json({ count: result.length, data: result });
+  if (req.query.active !== "true") return res.json(catalog);
+  const filtered = {};
+  for (const [name, m] of Object.entries(catalog)) if (m.active) filtered[name] = activeOnly(m);
+  res.json(filtered);
 });
 
-app.get("/api/models/:key", (req, res) => {
-  const model = findModel(req.params.key);
-  if (!model) return res.status(404).json({ error: "Model not found" });
-  res.json(model);
+app.get("/api/models/:model", (req, res) => {
+  const [name, m] = findModel(req.params.model);
+  if (!m) return res.status(404).json({ error: "Model not found" });
+  res.json({ name, ...(req.query.active === "true" ? activeOnly(m) : m) });
+});
+
+app.get("/api/models/:model/variants/:variant", (req, res) => {
+  const [modelName, m] = findModel(req.params.model);
+  if (!m) return res.status(404).json({ error: "Model not found" });
+  const [name, v] = findIn(m.variants, req.params.variant);
+  if (!v) return res.status(404).json({ error: "Variant not found" });
+  res.json({ model: modelName, name, ...v });
 });
 
 app.get("/api/image", (req, res) => {
   if (!req.query.model) return res.status(400).json({ error: "Query parameter 'model' is required" });
-  const model = findModel(req.query.model);
-  if (!model) return res.status(404).json({ error: "Model not found" });
-  res.json({ name: model.name, image: model.image });
+  const result = resolveImage(req.query);
+  if (!result) return res.status(404).json({ error: "Model not found" });
+  res.json(result);
 });
 
-app.get("/api/models/:key/image", (req, res) => {
-  const model = findModel(req.params.key);
-  if (!model || !model.image) return res.status(404).json({ error: "Image not found" });
+app.get("/api/image/redirect", (req, res) => {
+  const result = req.query.model && resolveImage(req.query);
+  if (!result || !result.image) return res.status(404).json({ error: "Image not found" });
   res.set("Cache-Control", "public, max-age=86400");
-  res.redirect(302, model.image);
+  res.redirect(302, result.image);
 });
 
 app.use((req, res) => res.status(404).json({ error: "Route not found" }));

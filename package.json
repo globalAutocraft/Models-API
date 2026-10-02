@@ -5,7 +5,7 @@
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
-    "sync": "node scripts/sync-from-sheet.js"
+    "build:json": "node scripts/build-json.js"
   },
   "engines": {
     "node": ">=18"

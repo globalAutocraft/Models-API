@@ -1,752 +1,1153 @@
-[
-  {
-    "id": 1,
-    "slug": "tvs-iqube-ug-new",
-    "name": "TVS IQUBE UG-NEW",
-    "image": "https://www.tvsmotor.com/lk/-/media/Feature/IB/Vehicles/Details/Non-Premium/IQubeEV/Gallery/gallery_606_360.webp?la=en&hash=E756CD9FC3FB5C0AC50B7CD08F2D1AF224E35C0A"
-  },
-  {
-    "id": 2,
-    "slug": "tvs-iqube-11-fr-disc-black",
-    "name": "TVS iQube 11 Fr. Disc black",
-    "image": "https://www.tvsmotor.com/lk/-/media/Feature/IB/Vehicles/Details/Non-Premium/IQubeEV/Gallery/gallery_606_360.webp?la=en&hash=E756CD9FC3FB5C0AC50B7CD08F2D1AF224E35C0A"
-  },
-  {
-    "id": 3,
-    "slug": "tvs-iqube-st-17",
-    "name": "TVS IQUBE ST 17",
-    "image": "https://www.tvsmotor.com/lk/-/media/Feature/IB/Vehicles/Details/Non-Premium/IQubeEV/Gallery/gallery_606_360.webp?la=en&hash=E756CD9FC3FB5C0AC50B7CD08F2D1AF224E35C0A"
-  },
-  {
-    "id": 4,
-    "slug": "tvs-iqube-s-new",
-    "name": "TVS IQUBE S-NEW",
-    "image": "https://www.tvsmotor.com/lk/-/media/Feature/IB/Vehicles/Details/Non-Premium/IQubeEV/Gallery/gallery_606_360.webp?la=en&hash=E756CD9FC3FB5C0AC50B7CD08F2D1AF224E35C0A"
-  },
-  {
-    "id": 5,
-    "slug": "tvs-iqube-ug",
-    "name": "TVS IQUBE UG",
-    "image": "https://www.tvsmotor.com/lk/-/media/Feature/IB/Vehicles/Details/Non-Premium/IQubeEV/Gallery/gallery_606_360.webp?la=en&hash=E756CD9FC3FB5C0AC50B7CD08F2D1AF224E35C0A"
-  },
-  {
-    "id": 6,
-    "slug": "tvs-iqube-electric-9",
-    "name": "TVS IQUBE ELECTRIC 9",
-    "image": "https://www.tvsmotor.com/lk/-/media/Feature/IB/Vehicles/Details/Non-Premium/IQubeEV/Gallery/gallery_606_360.webp?la=en&hash=E756CD9FC3FB5C0AC50B7CD08F2D1AF224E35C0A"
-  },
-  {
-    "id": 7,
-    "slug": "tvs-iqube-s",
-    "name": "TVS IQUBE S",
-    "image": "https://www.tvsmotor.com/lk/-/media/Feature/IB/Vehicles/Details/Non-Premium/IQubeEV/Gallery/gallery_606_360.webp?la=en&hash=E756CD9FC3FB5C0AC50B7CD08F2D1AF224E35C0A"
-  },
-  {
-    "id": 8,
-    "slug": "tvs-iqube-st-17-beige",
-    "name": "TVS IQUBE ST 17-Beige",
-    "image": "https://www.tvsmotor.com/lk/-/media/Feature/IB/Vehicles/Details/Non-Premium/IQubeEV/Gallery/gallery_606_360.webp?la=en&hash=E756CD9FC3FB5C0AC50B7CD08F2D1AF224E35C0A"
-  },
-  {
-    "id": 9,
-    "slug": "tvs-iqube-electric",
-    "name": "TVS iQUBE Electric",
-    "image": "https://www.tvsmotor.com/lk/-/media/Feature/IB/Vehicles/Details/Non-Premium/IQubeEV/Gallery/gallery_606_360.webp?la=en&hash=E756CD9FC3FB5C0AC50B7CD08F2D1AF224E35C0A"
-  },
-  {
-    "id": 10,
-    "slug": "tvs-iqube-ug-beige",
-    "name": "TVS IQube UG-Beige",
-    "image": "https://www.tvsmotor.com/lk/-/media/Feature/IB/Vehicles/Details/Non-Premium/IQubeEV/Gallery/gallery_606_360.webp?la=en&hash=E756CD9FC3FB5C0AC50B7CD08F2D1AF224E35C0A"
-  },
-  {
-    "id": 11,
-    "slug": "tvs-iqube-s15-black-fr-disc",
-    "name": "TVS iQUBE S15 BLACK Fr Disc",
-    "image": "https://www.tvsmotor.com/lk/-/media/Feature/IB/Vehicles/Details/Non-Premium/IQubeEV/Gallery/gallery_606_360.webp?la=en&hash=E756CD9FC3FB5C0AC50B7CD08F2D1AF224E35C0A"
-  },
-  {
-    "id": 12,
-    "slug": "tvs-iqube-s15-beige-fr-disc",
-    "name": "TVS iQUBE S15 BEIGE Fr Disc",
-    "image": "https://www.tvsmotor.com/lk/-/media/Feature/IB/Vehicles/Details/Non-Premium/IQubeEV/Gallery/gallery_606_360.webp?la=en&hash=E756CD9FC3FB5C0AC50B7CD08F2D1AF224E35C0A"
-  },
-  {
-    "id": 13,
-    "slug": "tvs-iqube-s-beige",
-    "name": "TVS IQube S-Beige",
-    "image": "https://www.tvsmotor.com/lk/-/media/Feature/IB/Vehicles/Details/Non-Premium/IQubeEV/Gallery/gallery_606_360.webp?la=en&hash=E756CD9FC3FB5C0AC50B7CD08F2D1AF224E35C0A"
-  },
-  {
-    "id": 14,
-    "slug": "tvs-iqube-11-fr-disc-beige",
-    "name": "TVS iQube 11 Fr. Disc Beige",
-    "image": "https://www.tvsmotor.com/lk/-/media/Feature/IB/Vehicles/Details/Non-Premium/IQubeEV/Gallery/gallery_606_360.webp?la=en&hash=E756CD9FC3FB5C0AC50B7CD08F2D1AF224E35C0A"
-  },
-  {
-    "id": 15,
-    "slug": "jupiter-125-disc-sx",
-    "name": "JUPITER 125 DISC SX",
-    "image": "https://cdn.bikedekho.com/processedimages/tvs/jupiter-125/source/jupiter-12569fb243103684.jpg"
-  },
-  {
-    "id": 16,
-    "slug": "jupiter-125-bsvi",
-    "name": "JUPITER 125 BSVI",
-    "image": "https://cdn.bikedekho.com/processedimages/tvs/jupiter-125/source/jupiter-12569fb243103684.jpg"
-  },
-  {
-    "id": 17,
-    "slug": "tvs-jupiter-125-disc-sxc-obdiib",
-    "name": "TVS JUPITER 125 DISC SXC OBDIIB",
-    "image": "https://cdn.bikedekho.com/processedimages/tvs/jupiter-125/source/jupiter-12569fb243103684.jpg"
-  },
-  {
-    "id": 18,
-    "slug": "tvs-jupiter-125-disc-dt-sxc-obdiib",
-    "name": "TVS JUPITER 125 DISC DT SXC OBDIIB",
-    "image": "https://cdn.bikedekho.com/processedimages/tvs/jupiter-125/source/jupiter-12569fb243103684.jpg"
-  },
-  {
-    "id": 19,
-    "slug": "tvs-jupiter-125-disc-obdiib",
-    "name": "TVS JUPITER 125 DISC OBDIIB",
-    "image": "https://cdn.bikedekho.com/processedimages/tvs/jupiter-125/source/jupiter-12569fb243103684.jpg"
-  },
-  {
-    "id": 20,
-    "slug": "tvs-jupiter-125-drum-obdiib",
-    "name": "TVS JUPITER 125 DRUM OBDIIB",
-    "image": "https://cdn.bikedekho.com/processedimages/tvs/jupiter-125/source/jupiter-12569fb243103684.jpg"
-  },
-  {
-    "id": 21,
-    "slug": "jupiter-125-drum-bsvi",
-    "name": "JUPITER 125 DRUM BSVI",
-    "image": "https://cdn.bikedekho.com/processedimages/tvs/jupiter-125/source/jupiter-12569fb243103684.jpg"
-  },
-  {
-    "id": 22,
-    "slug": "jupiter-zx-disc-bsvi-iss",
-    "name": "JUPITER ZX DISC BSVI-ISS",
-    "image": "https://www.tvsmotor.com/lk/-/media/Feature/IB/Webp-Images/Non-Premium/Jupiter-110/web/PL/jupiter.webp?la=en&hash=B2BA576FE1AA06585ECE6A092E6E73D04B309D80"
-  },
-  {
-    "id": 23,
-    "slug": "jupiter-bs-iv",
-    "name": "JUPITER ( BS IV)",
-    "image": "https://www.tvsmotor.com/lk/-/media/Feature/IB/Webp-Images/Non-Premium/Jupiter-110/web/PL/jupiter.webp?la=en&hash=B2BA576FE1AA06585ECE6A092E6E73D04B309D80"
-  },
-  {
-    "id": 24,
-    "slug": "tvs-jupiter110-drum-alloy-sxc",
-    "name": "TVS JUPITER110 DRUM ALLOY SXC",
-    "image": "https://www.tvsmotor.com/lk/-/media/Feature/IB/Webp-Images/Non-Premium/Jupiter-110/web/PL/jupiter.webp?la=en&hash=B2BA576FE1AA06585ECE6A092E6E73D04B309D80"
-  },
-  {
-    "id": 25,
-    "slug": "jupiter-zx-disc-bs-iv",
-    "name": "JUPITER ZX DISC ( BS IV)",
-    "image": "https://www.tvsmotor.com/lk/-/media/Feature/IB/Webp-Images/Non-Premium/Jupiter-110/web/PL/jupiter.webp?la=en&hash=B2BA576FE1AA06585ECE6A092E6E73D04B309D80"
-  },
-  {
-    "id": 26,
-    "slug": "jupiter-bsvi-aol",
-    "name": "JUPITER BSVI-AOL",
-    "image": "https://www.tvsmotor.com/lk/-/media/Feature/IB/Webp-Images/Non-Premium/Jupiter-110/web/PL/jupiter.webp?la=en&hash=B2BA576FE1AA06585ECE6A092E6E73D04B309D80"
-  },
-  {
-    "id": 27,
-    "slug": "tvs-jupiter110-drum-smw-obdiib",
-    "name": "TVS JUPITER110 DRUM SMW OBDIIB",
-    "image": "https://www.tvsmotor.com/lk/-/media/Feature/IB/Webp-Images/Non-Premium/Jupiter-110/web/PL/jupiter.webp?la=en&hash=B2BA576FE1AA06585ECE6A092E6E73D04B309D80"
-  },
-  {
-    "id": 28,
-    "slug": "tvs-jupiter110-drum-alloy-sxc-obdiib",
-    "name": "TVS JUPITER110 DRUM ALLOY SXC OBDIIB",
-    "image": "https://www.tvsmotor.com/lk/-/media/Feature/IB/Webp-Images/Non-Premium/Jupiter-110/web/PL/jupiter.webp?la=en&hash=B2BA576FE1AA06585ECE6A092E6E73D04B309D80"
-  },
-  {
-    "id": 29,
-    "slug": "tvs-jupiter110-drum",
-    "name": "TVS JUPITER110 DRUM",
-    "image": "https://www.tvsmotor.com/lk/-/media/Feature/IB/Webp-Images/Non-Premium/Jupiter-110/web/PL/jupiter.webp?la=en&hash=B2BA576FE1AA06585ECE6A092E6E73D04B309D80"
-  },
-  {
-    "id": 30,
-    "slug": "jupiter-zx-bsvi-aol",
-    "name": "JUPITER ZX BSVI - AOL",
-    "image": "https://www.tvsmotor.com/lk/-/media/Feature/IB/Webp-Images/Non-Premium/Jupiter-110/web/PL/jupiter.webp?la=en&hash=B2BA576FE1AA06585ECE6A092E6E73D04B309D80"
-  },
-  {
-    "id": 31,
-    "slug": "jupiter-bsvi",
-    "name": "JUPITER BSVI",
-    "image": "https://www.tvsmotor.com/lk/-/media/Feature/IB/Webp-Images/Non-Premium/Jupiter-110/web/PL/jupiter.webp?la=en&hash=B2BA576FE1AA06585ECE6A092E6E73D04B309D80"
-  },
-  {
-    "id": 32,
-    "slug": "jupiter",
-    "name": "JUPITER",
-    "image": "https://www.tvsmotor.com/lk/-/media/Feature/IB/Webp-Images/Non-Premium/Jupiter-110/web/PL/jupiter.webp?la=en&hash=B2BA576FE1AA06585ECE6A092E6E73D04B309D80"
-  },
-  {
-    "id": 33,
-    "slug": "tvs-jupiter110-disc-alloy-sxc-obdiib",
-    "name": "TVS JUPITER110 DISC ALLOY SXC OBDIIB",
-    "image": "https://www.tvsmotor.com/lk/-/media/Feature/IB/Webp-Images/Non-Premium/Jupiter-110/web/PL/jupiter.webp?la=en&hash=B2BA576FE1AA06585ECE6A092E6E73D04B309D80"
-  },
-  {
-    "id": 34,
-    "slug": "tvs-jupiter-classic-disc-bsvi",
-    "name": "TVS JUPITER CLASSIC DISC BSVI",
-    "image": "https://www.tvsmotor.com/lk/-/media/Feature/IB/Webp-Images/Non-Premium/Jupiter-110/web/PL/jupiter.webp?la=en&hash=B2BA576FE1AA06585ECE6A092E6E73D04B309D80"
-  },
-  {
-    "id": 35,
-    "slug": "jupiter-classic-bsvi",
-    "name": "JUPITER CLASSIC BSVI",
-    "image": "https://www.tvsmotor.com/lk/-/media/Feature/IB/Webp-Images/Non-Premium/Jupiter-110/web/PL/jupiter.webp?la=en&hash=B2BA576FE1AA06585ECE6A092E6E73D04B309D80"
-  },
-  {
-    "id": 36,
-    "slug": "jupiter-zx-disc-sxc",
-    "name": "JUPITER ZX DISC SXC",
-    "image": "https://www.tvsmotor.com/lk/-/media/Feature/IB/Webp-Images/Non-Premium/Jupiter-110/web/PL/jupiter.webp?la=en&hash=B2BA576FE1AA06585ECE6A092E6E73D04B309D80"
-  },
-  {
-    "id": 37,
-    "slug": "jupiter-zx-disc-ref-bsiv",
-    "name": "Jupiter ZX Disc Ref (BSIV)",
-    "image": "https://www.tvsmotor.com/lk/-/media/Feature/IB/Webp-Images/Non-Premium/Jupiter-110/web/PL/jupiter.webp?la=en&hash=B2BA576FE1AA06585ECE6A092E6E73D04B309D80"
-  },
-  {
-    "id": 38,
-    "slug": "tvs-jupiter110-drum-alloy-obdiib",
-    "name": "TVS JUPITER110 DRUM ALLOY OBDIIB",
-    "image": "https://www.tvsmotor.com/lk/-/media/Feature/IB/Webp-Images/Non-Premium/Jupiter-110/web/PL/jupiter.webp?la=en&hash=B2BA576FE1AA06585ECE6A092E6E73D04B309D80"
-  },
-  {
-    "id": 39,
-    "slug": "jupiter-drum-le",
-    "name": "JUPITER DRUM LE",
-    "image": "https://www.tvsmotor.com/lk/-/media/Feature/IB/Webp-Images/Non-Premium/Jupiter-110/web/PL/jupiter.webp?la=en&hash=B2BA576FE1AA06585ECE6A092E6E73D04B309D80"
-  },
-  {
-    "id": 40,
-    "slug": "jupiter-zx-bsvi",
-    "name": "JUPITER ZX BSVI",
-    "image": "https://www.tvsmotor.com/lk/-/media/Feature/IB/Webp-Images/Non-Premium/Jupiter-110/web/PL/jupiter.webp?la=en&hash=B2BA576FE1AA06585ECE6A092E6E73D04B309D80"
-  },
-  {
-    "id": 41,
-    "slug": "jupiter-disc-le",
-    "name": "JUPITER DISC LE",
-    "image": "https://www.tvsmotor.com/lk/-/media/Feature/IB/Webp-Images/Non-Premium/Jupiter-110/web/PL/jupiter.webp?la=en&hash=B2BA576FE1AA06585ECE6A092E6E73D04B309D80"
-  },
-  {
-    "id": 42,
-    "slug": "tvs-jupiter-110-obdiib-disc-sxc-spl",
-    "name": "TVS Jupiter 110 OBDIIB Disc SXC -SPL",
-    "image": "https://www.tvsmotor.com/lk/-/media/Feature/IB/Webp-Images/Non-Premium/Jupiter-110/web/PL/jupiter.webp?la=en&hash=B2BA576FE1AA06585ECE6A092E6E73D04B309D80"
-  },
-  {
-    "id": 43,
-    "slug": "tvs-jupiter110-disc-alloy-sxc",
-    "name": "TVS JUPITER110 DISC ALLOY SXC",
-    "image": "https://www.tvsmotor.com/lk/-/media/Feature/IB/Webp-Images/Non-Premium/Jupiter-110/web/PL/jupiter.webp?la=en&hash=B2BA576FE1AA06585ECE6A092E6E73D04B309D80"
-  },
-  {
-    "id": 44,
-    "slug": "jupiter-grande-disc",
-    "name": "Jupiter Grande Disc",
-    "image": "https://www.tvsmotor.com/lk/-/media/Feature/IB/Webp-Images/Non-Premium/Jupiter-110/web/PL/jupiter.webp?la=en&hash=B2BA576FE1AA06585ECE6A092E6E73D04B309D80"
-  },
-  {
-    "id": 45,
-    "slug": "jupiter-drum-le-sbs",
-    "name": "Jupiter Drum LE SBS",
-    "image": "https://www.tvsmotor.com/lk/-/media/Feature/IB/Webp-Images/Non-Premium/Jupiter-110/web/PL/jupiter.webp?la=en&hash=B2BA576FE1AA06585ECE6A092E6E73D04B309D80"
-  },
-  {
-    "id": 46,
-    "slug": "tvs-jupiter110-drum-alloy",
-    "name": "TVS JUPITER110 DRUM ALLOY",
-    "image": "https://www.tvsmotor.com/lk/-/media/Feature/IB/Webp-Images/Non-Premium/Jupiter-110/web/PL/jupiter.webp?la=en&hash=B2BA576FE1AA06585ECE6A092E6E73D04B309D80"
-  },
-  {
-    "id": 47,
-    "slug": "jupiter-classic",
-    "name": "JUPITER CLASSIC",
-    "image": "https://www.tvsmotor.com/lk/-/media/Feature/IB/Webp-Images/Non-Premium/Jupiter-110/web/PL/jupiter.webp?la=en&hash=B2BA576FE1AA06585ECE6A092E6E73D04B309D80"
-  },
-  {
-    "id": 48,
-    "slug": "jupiter-bsvi-smw",
-    "name": "JUPITER BSVI - SMW",
-    "image": "https://www.tvsmotor.com/lk/-/media/Feature/IB/Webp-Images/Non-Premium/Jupiter-110/web/PL/jupiter.webp?la=en&hash=B2BA576FE1AA06585ECE6A092E6E73D04B309D80"
-  },
-  {
-    "id": 49,
-    "slug": "tvs-ntorq-150-abs-obdiib",
-    "name": "TVS NTORQ 150 ABS OBDIIB",
-    "image": "https://cdn.bikedekho.com/processedimages/tvs/ntorq-150/source/ntorq-15068b964592ed57.jpg"
-  },
-  {
-    "id": 50,
-    "slug": "tvs-ntorq-150-tft-abs-obdiib",
-    "name": "TVS Ntorq 150 TFT ABS OBDIIB",
-    "image": "https://cdn.bikedekho.com/processedimages/tvs/ntorq-150/source/ntorq-15068b964592ed57.jpg"
-  },
-  {
-    "id": 51,
-    "slug": "ntorq-125-race-xp-obdiib-igo-assist",
-    "name": "NTORQ 125 RACE XP OBDIIB iGO ASSIST",
-    "image": "https://www.tvsmotor.com/lk/-/media/Feature/IB/Webp-Images/Non-Premium/Ntorq-125-XP-FI/Web/NTORQ-125-XP-FI-606X360.png?la=en&h=360&w=606&hash=A7AA9C8A3C0DDEF0D6662F68D78EF040723A6264"
-  },
-  {
-    "id": 52,
-    "slug": "tvs-ntorq-125-race-xp-bsvi-obdiib",
-    "name": "TVS NTORQ 125 RACE XP BSVI OBDIIB",
-    "image": "https://www.tvsmotor.com/lk/-/media/Feature/IB/Webp-Images/Non-Premium/Ntorq-125-XP-FI/Web/NTORQ-125-XP-FI-606X360.png?la=en&h=360&w=606&hash=A7AA9C8A3C0DDEF0D6662F68D78EF040723A6264"
-  },
-  {
-    "id": 53,
-    "slug": "tvs-ntorq-125-race-xp",
-    "name": "TVS NTORQ 125 RACE XP",
-    "image": "https://www.tvsmotor.com/lk/-/media/Feature/IB/Webp-Images/Non-Premium/Ntorq-125-XP-FI/Web/NTORQ-125-XP-FI-606X360.png?la=en&h=360&w=606&hash=A7AA9C8A3C0DDEF0D6662F68D78EF040723A6264"
-  },
-  {
-    "id": 54,
-    "slug": "ntorq-125-disc-race-edition-bsvi",
-    "name": "NTORQ 125 DISC - RACE EDITION BSVI",
-    "image": "https://www.tvsmotor.com/lk/-/media/Feature/IB/Vehicles/Product-listing/mob/Ntorq-RE/Ntorq-RE.png?la=en&h=360&w=606&hash=D305D39618C96F9D91518B5EB14F0C6D7DDD1D6D"
-  },
-  {
-    "id": 55,
-    "slug": "ntorq-125-re-r-lcd-obd2b",
-    "name": "NTORQ 125 RE R.LCD OBD2B",
-    "image": "https://www.tvsmotor.com/lk/-/media/Feature/IB/Vehicles/Product-listing/mob/Ntorq-RE/Ntorq-RE.png?la=en&h=360&w=606&hash=D305D39618C96F9D91518B5EB14F0C6D7DDD1D6D"
-  },
-  {
-    "id": 56,
-    "slug": "ntorq-125-disc-race-edition-bsiv",
-    "name": "NTORQ 125 DISC - Race Edition BSIV",
-    "image": "https://www.tvsmotor.com/lk/-/media/Feature/IB/Vehicles/Product-listing/mob/Ntorq-RE/Ntorq-RE.png?la=en&h=360&w=606&hash=D305D39618C96F9D91518B5EB14F0C6D7DDD1D6D"
-  },
-  {
-    "id": 57,
-    "slug": "tvs-ntorq-125-race-edt-bsvi-obdiib",
-    "name": "TVS NTORQ 125 RACE EDT BSVI OBDIIB",
-    "image": "https://www.tvsmotor.com/lk/-/media/Feature/IB/Vehicles/Product-listing/mob/Ntorq-RE/Ntorq-RE.png?la=en&h=360&w=606&hash=D305D39618C96F9D91518B5EB14F0C6D7DDD1D6D"
-  },
-  {
-    "id": 58,
-    "slug": "ntorq-125-disc-sse",
-    "name": "NTORQ 125 DISC - SSE",
-    "image": "https://www.tvsmotor.com/lk/-/media/Feature/IB/Webp-Images/Premium/Ntorq-125-Greay/Mob/Product-Listing/Ntorq.webp?la=en&hash=753536B73CD91777AF750B557BF746F0D8024F07"
-  },
-  {
-    "id": 59,
-    "slug": "tvs-ntorq-125-super-squad-bsvi-obdiib",
-    "name": "TVS NTORQ 125 SUPER SQUAD BSVI OBDIIB",
-    "image": "https://www.tvsmotor.com/lk/-/media/Feature/IB/Webp-Images/Premium/Ntorq-125-Greay/Mob/Product-Listing/Ntorq.webp?la=en&hash=753536B73CD91777AF750B557BF746F0D8024F07"
-  },
-  {
-    "id": 60,
-    "slug": "ntorq-125-disc-hbs",
-    "name": "NTORQ 125 DISC - HBS",
-    "image": "https://www.tvsmotor.com/lk/-/media/Feature/IB/Webp-Images/Premium/Ntorq-125-Greay/Mob/Product-Listing/Ntorq.webp?la=en&hash=753536B73CD91777AF750B557BF746F0D8024F07"
-  },
-  {
-    "id": 61,
-    "slug": "tvs-ntorq-125-disc",
-    "name": "TVS NTORQ 125 DISC",
-    "image": "https://www.tvsmotor.com/lk/-/media/Feature/IB/Webp-Images/Premium/Ntorq-125-Greay/Mob/Product-Listing/Ntorq.webp?la=en&hash=753536B73CD91777AF750B557BF746F0D8024F07"
-  },
-  {
-    "id": 62,
-    "slug": "tvs-ntorq-125-disc-bsvi-obdiib",
-    "name": "TVS NTORQ 125 DISC BSVI OBDIIB",
-    "image": "https://www.tvsmotor.com/lk/-/media/Feature/IB/Webp-Images/Premium/Ntorq-125-Greay/Mob/Product-Listing/Ntorq.webp?la=en&hash=753536B73CD91777AF750B557BF746F0D8024F07"
-  },
-  {
-    "id": 63,
-    "slug": "ntorq-125-drum-nc-bsvi",
-    "name": "NTORQ 125 DRUM NC BSVI",
-    "image": "https://www.tvsmotor.com/lk/-/media/Feature/IB/Webp-Images/Premium/Ntorq-125-Greay/Mob/Product-Listing/Ntorq.webp?la=en&hash=753536B73CD91777AF750B557BF746F0D8024F07"
-  },
-  {
-    "id": 64,
-    "slug": "ntorq-125-disc-r-lcd-obd2b",
-    "name": "NTORQ 125 DISC R.LCD OBD2B",
-    "image": "https://www.tvsmotor.com/lk/-/media/Feature/IB/Webp-Images/Premium/Ntorq-125-Greay/Mob/Product-Listing/Ntorq.webp?la=en&hash=753536B73CD91777AF750B557BF746F0D8024F07"
-  },
-  {
-    "id": 65,
-    "slug": "tvs-ntorq-125-disc-bsvi",
-    "name": "TVS NTORQ 125 DISC BSVI",
-    "image": "https://www.tvsmotor.com/lk/-/media/Feature/IB/Webp-Images/Premium/Ntorq-125-Greay/Mob/Product-Listing/Ntorq.webp?la=en&hash=753536B73CD91777AF750B557BF746F0D8024F07"
-  },
-  {
-    "id": 66,
-    "slug": "apache-rtx-300-top",
-    "name": "APACHE RTX 300 TOP",
-    "image": "https://cdn.bikedekho.com/processedimages/tvs/adv/source/adv698ed4c962888.jpg"
-  },
-  {
-    "id": 67,
-    "slug": "apache-rtx-300-bto",
-    "name": "APACHE RTX 300 BTO",
-    "image": "https://cdn.bikedekho.com/processedimages/tvs/adv/source/adv698ed4c962888.jpg"
-  },
-  {
-    "id": 68,
-    "slug": "apache-rtx-300-base",
-    "name": "APACHE RTX 300 BASE",
-    "image": "https://cdn.bikedekho.com/processedimages/tvs/adv/source/adv698ed4c962888.jpg"
-  },
-  {
-    "id": 69,
-    "slug": "apache-rtx-300-bto-viper-green",
-    "name": "APACHE RTX 300 BTO VIPER GREEN",
-    "image": "https://cdn.bikedekho.com/processedimages/tvs/adv/source/adv698ed4c962888.jpg"
-  },
-  {
-    "id": 70,
-    "slug": "apache-rr310-obdiia-m23-base-rar",
-    "name": "APACHE RR310-OBDIIA-M23-BASE-RAR",
-    "image": "https://www.tvsmotor.com/lk/-/media/Feature/IB/Webp-Images/Premium/RR310-LK/Listings/HomeListingRR.png?la=en&h=360&w=606&hash=195033DB2B129F2F4F4443A802510CCF400BEA13"
-  },
-  {
-    "id": 71,
-    "slug": "apache-rr310-o2b-m24-base-rar",
-    "name": "APACHE RR310-O2B-M24-BASE-RAR",
-    "image": "https://www.tvsmotor.com/lk/-/media/Feature/IB/Webp-Images/Premium/RR310-LK/Listings/HomeListingRR.png?la=en&h=360&w=606&hash=195033DB2B129F2F4F4443A802510CCF400BEA13"
-  },
-  {
-    "id": 72,
-    "slug": "apache-rr-310",
-    "name": "APACHE RR 310",
-    "image": "https://www.tvsmotor.com/lk/-/media/Feature/IB/Webp-Images/Premium/RR310-LK/Listings/HomeListingRR.png?la=en&h=360&w=606&hash=195033DB2B129F2F4F4443A802510CCF400BEA13"
-  },
-  {
-    "id": 73,
-    "slug": "apache-rtr-310-o2b-m24-dyn-pro-rc-red-tr",
-    "name": "APACHE RTR 310-O2B-M24-DYN PRO-RC-RED TR",
-    "image": "https://www.tvsmotor.com/lk/-/media/Feature/IB/Webp-Images/Premium/RTR310-LK/Listings/HomeListingRTR.png?la=en&h=360&w=606&hash=2447A70243F46B9E14E64931613368DA2142F1D2"
-  },
-  {
-    "id": 74,
-    "slug": "apache-200-r2-0-abs",
-    "name": "Apache 200 R2.0-ABS",
-    "image": "https://www.tvsmotor.com/lk/-/media/Feature/IB/Webp-Images/Premium/2004V-PHL/Listings/HomeListing200.png?la=en&h=360&w=606&hash=CF84366D72CE6F39ACF2E8FFF3AA9F0C1A5F1322"
-  },
-  {
-    "id": 75,
-    "slug": "apache-200-4v-2ch-r-mode",
-    "name": "Apache 200 4V 2ch-R Mode",
-    "image": "https://www.tvsmotor.com/lk/-/media/Feature/IB/Webp-Images/Premium/2004V-PHL/Listings/HomeListing200.png?la=en&h=360&w=606&hash=CF84366D72CE6F39ACF2E8FFF3AA9F0C1A5F1322"
-  },
-  {
-    "id": 76,
-    "slug": "tvs-apache-rtr-160-4v-usd-2ch",
-    "name": "TVS APACHE RTR 160 4V USD - 2CH",
-    "image": "https://www.tvsmotor.com/lk/-/media/Feature/IB/Webp-Images/Premium/1604V-PHL/Listings/HomeLisitng160.png?la=en&h=360&w=606&hash=026E0517F42E9F18EDEB2E2DDA3762FDDC2F2D18"
-  },
-  {
-    "id": 77,
-    "slug": "apache-160-4v-pl-2ch-usd-tft-obdiib",
-    "name": "APACHE 160 4V - PL 2CH USD+TFT OBDIIB",
-    "image": "https://www.tvsmotor.com/lk/-/media/Feature/IB/Webp-Images/Premium/1604V-PHL/Listings/HomeLisitng160.png?la=en&h=360&w=606&hash=026E0517F42E9F18EDEB2E2DDA3762FDDC2F2D18"
-  },
-  {
-    "id": 78,
-    "slug": "tvs-apache-rtr-160-4v-rm-disc",
-    "name": "TVS APACHE RTR 160 4V - RM DISC",
-    "image": "https://www.tvsmotor.com/lk/-/media/Feature/IB/Webp-Images/Premium/1604V-PHL/Listings/HomeLisitng160.png?la=en&h=360&w=606&hash=026E0517F42E9F18EDEB2E2DDA3762FDDC2F2D18"
-  },
-  {
-    "id": 79,
-    "slug": "tvs-apache-rtr-1604v-rm-obdiia-drum-b-e",
-    "name": "TVS APACHE RTR 1604V- RM OBDIIA DRUM B.E",
-    "image": "https://www.tvsmotor.com/lk/-/media/Feature/IB/Webp-Images/Premium/1604V-PHL/Listings/HomeLisitng160.png?la=en&h=360&w=606&hash=026E0517F42E9F18EDEB2E2DDA3762FDDC2F2D18"
-  },
-  {
-    "id": 80,
-    "slug": "tvs-apache-rtr-160-4v-rm-spl-ed",
-    "name": "TVS APACHE RTR 160 4V - RM SPL ED",
-    "image": "https://www.tvsmotor.com/lk/-/media/Feature/IB/Webp-Images/Premium/1604V-PHL/Listings/HomeLisitng160.png?la=en&h=360&w=606&hash=026E0517F42E9F18EDEB2E2DDA3762FDDC2F2D18"
-  },
-  {
-    "id": 81,
-    "slug": "tvs-apache-rtr-160-4v-2ch-abs-bt",
-    "name": "TVS APACHE RTR 160 4V - 2CH ABS BT",
-    "image": "https://www.tvsmotor.com/lk/-/media/Feature/IB/Webp-Images/Premium/1604V-PHL/Listings/HomeLisitng160.png?la=en&h=360&w=606&hash=026E0517F42E9F18EDEB2E2DDA3762FDDC2F2D18"
-  },
-  {
-    "id": 82,
-    "slug": "tvs-apache-rtr-160-4v-disc-hp",
-    "name": "TVS APACHE RTR 160 4V - Disc HP",
-    "image": "https://www.tvsmotor.com/lk/-/media/Feature/IB/Webp-Images/Premium/1604V-PHL/Listings/HomeLisitng160.png?la=en&h=360&w=606&hash=026E0517F42E9F18EDEB2E2DDA3762FDDC2F2D18"
-  },
-  {
-    "id": 83,
-    "slug": "tvs-apache-rtr-160-obdiib-2v-dc-abs",
-    "name": "TVS APACHE RTR 160-OBDIIB 2V DC ABS",
-    "image": "https://cdn.bikedekho.com/processedimages/tvs/apache-rtr-160/source/apache-rtr-1606aad371bc5385.jpg"
-  },
-  {
-    "id": 84,
-    "slug": "apache-160-fd-2v-abs-u327b",
-    "name": "APACHE 160 FD 2V ABS-U327B",
-    "image": "https://cdn.bikedekho.com/processedimages/tvs/apache-rtr-160/source/apache-rtr-1606aad371bc5385.jpg"
-  },
-  {
-    "id": 85,
-    "slug": "tvs-ronin-base-1-ch-fl-red-obdiib",
-    "name": "TVS RONIN BASE 1 CH - FL RED OBDIIB",
-    "image": "https://www.tvsmotor.com/lk/-/media/Feature/IB/Webp-Images/Premium/Ronin-Nimbus/Web/Listing/home-listing-new11.webp?la=en&hash=3625F3D6D532DC4E046AFC5EB605ED8618BCC249"
-  },
-  {
-    "id": 86,
-    "slug": "tvs-ronin-1ch-base-fl-red",
-    "name": "TVS RONIN 1CH BASE-FL RED",
-    "image": "https://www.tvsmotor.com/lk/-/media/Feature/IB/Webp-Images/Premium/Ronin-Nimbus/Web/Listing/home-listing-new11.webp?la=en&hash=3625F3D6D532DC4E046AFC5EB605ED8618BCC249"
-  },
-  {
-    "id": 87,
-    "slug": "tvs-ronin-base-1-ch-lng-black-obdiib",
-    "name": "TVS RONIN BASE 1 CH - LNG Black OBDIIB",
-    "image": "https://www.tvsmotor.com/lk/-/media/Feature/IB/Webp-Images/Premium/Ronin-Nimbus/Web/Listing/home-listing-new11.webp?la=en&hash=3625F3D6D532DC4E046AFC5EB605ED8618BCC249"
-  },
-  {
-    "id": 88,
-    "slug": "tvs-ronin-mid-2ch-charcoal-embr-obdiib",
-    "name": "TVS RONIN MID 2CH - CHARCOAL EMBR OBDIIB",
-    "image": "https://www.tvsmotor.com/lk/-/media/Feature/IB/Webp-Images/Premium/Ronin-Nimbus/Web/Listing/home-listing-new11.webp?la=en&hash=3625F3D6D532DC4E046AFC5EB605ED8618BCC249"
-  },
-  {
-    "id": 89,
-    "slug": "tvs-ronin-top-2ch-special-edi-obdiib",
-    "name": "TVS RONIN TOP 2CH - SPECIAL EDI OBDIIB",
-    "image": "https://www.tvsmotor.com/lk/-/media/Feature/IB/Webp-Images/Premium/Ronin-Nimbus/Web/Listing/home-listing-new11.webp?la=en&hash=3625F3D6D532DC4E046AFC5EB605ED8618BCC249"
-  },
-  {
-    "id": 90,
-    "slug": "tvs-ronin-2ch-mid",
-    "name": "TVS RONIN 2CH MID",
-    "image": "https://www.tvsmotor.com/lk/-/media/Feature/IB/Webp-Images/Premium/Ronin-Nimbus/Web/Listing/home-listing-new11.webp?la=en&hash=3625F3D6D532DC4E046AFC5EB605ED8618BCC249"
-  },
-  {
-    "id": 91,
-    "slug": "tvs-ronin-2ch-mid-spl",
-    "name": "TVS RONIN 2CH MID SPL",
-    "image": "https://www.tvsmotor.com/lk/-/media/Feature/IB/Webp-Images/Premium/Ronin-Nimbus/Web/Listing/home-listing-new11.webp?la=en&hash=3625F3D6D532DC4E046AFC5EB605ED8618BCC249"
-  },
-  {
-    "id": 92,
-    "slug": "raider-disc-igo-i-ecu-obdiib",
-    "name": "RAIDER DISC IGO I-ECU OBDIIB",
-    "image": "https://www.tvsmotor.com/lk/-/media/Feature/IB/Vehicles/Details/Premium/RAIDER/Mob/Product-Listing/RAIDER.png?la=en&h=360&w=606&hash=9173FCC86051E5C95D6A153579EBC102B8F3622A"
-  },
-  {
-    "id": 93,
-    "slug": "tvs-raider-disc",
-    "name": "TVS RAIDER DISC",
-    "image": "https://www.tvsmotor.com/lk/-/media/Feature/IB/Vehicles/Details/Premium/RAIDER/Mob/Product-Listing/RAIDER.png?la=en&h=360&w=606&hash=9173FCC86051E5C95D6A153579EBC102B8F3622A"
-  },
-  {
-    "id": 94,
-    "slug": "raider-obdiib-1ch-abs",
-    "name": "RAIDER - OBDIIB 1CH ABS",
-    "image": "https://www.tvsmotor.com/lk/-/media/Feature/IB/Vehicles/Details/Premium/RAIDER/Mob/Product-Listing/RAIDER.png?la=en&h=360&w=606&hash=9173FCC86051E5C95D6A153579EBC102B8F3622A"
-  },
-  {
-    "id": 95,
-    "slug": "tvs-raider-disc-ss",
-    "name": "TVS RAIDER DISC - SS",
-    "image": "https://www.tvsmotor.com/lk/-/media/Feature/IB/Vehicles/Details/Premium/RAIDER/Mob/Product-Listing/RAIDER.png?la=en&h=360&w=606&hash=9173FCC86051E5C95D6A153579EBC102B8F3622A"
-  },
-  {
-    "id": 96,
-    "slug": "raider-igo-i-ecu-rd-wh-obdiib",
-    "name": "RAIDER IGO I-ECU RD WH OBDIIB",
-    "image": "https://www.tvsmotor.com/lk/-/media/Feature/IB/Vehicles/Details/Premium/RAIDER/Mob/Product-Listing/RAIDER.png?la=en&h=360&w=606&hash=9173FCC86051E5C95D6A153579EBC102B8F3622A"
-  },
-  {
-    "id": 97,
-    "slug": "raider-sqd-edn-i-ecu-obdiib",
-    "name": "RAIDER SQD EDN I-ECU OBDIIB",
-    "image": "https://www.tvsmotor.com/lk/-/media/Feature/IB/Vehicles/Details/Premium/RAIDER/Mob/Product-Listing/RAIDER.png?la=en&h=360&w=606&hash=9173FCC86051E5C95D6A153579EBC102B8F3622A"
-  },
-  {
-    "id": 98,
-    "slug": "tvs-raider-disc-connected",
-    "name": "TVS RAIDER DISC CONNECTED",
-    "image": "https://www.tvsmotor.com/lk/-/media/Feature/IB/Vehicles/Details/Premium/RAIDER/Mob/Product-Listing/RAIDER.png?la=en&h=360&w=606&hash=9173FCC86051E5C95D6A153579EBC102B8F3622A"
-  },
-  {
-    "id": 99,
-    "slug": "tvs-radeon-110-es-mag-drum",
-    "name": "TVS RADEON 110 ES MAG DRUM",
-    "image": "https://cdn.bikedekho.com/processedimages/tvs/radeon/source/radeon6a2fca64d824a.jpg"
-  },
-  {
-    "id": 100,
-    "slug": "radeon-disc-digi-obdiib",
-    "name": "RADEON DISC DIGI OBDIIB",
-    "image": "https://cdn.bikedekho.com/processedimages/tvs/radeon/source/radeon6a2fca64d824a.jpg"
-  },
-  {
-    "id": 101,
-    "slug": "tvs-radeon-bsvi-digidrum-dt-obdiia",
-    "name": "TVS RADEON BSVI DIGIDRUM DT OBDIIA",
-    "image": "https://cdn.bikedekho.com/processedimages/tvs/radeon/source/radeon6a2fca64d824a.jpg"
-  },
-  {
-    "id": 102,
-    "slug": "tvs-radeon-110-es-mag-bsvi",
-    "name": "TVS RADEON 110 ES MAG BSVI",
-    "image": "https://cdn.bikedekho.com/processedimages/tvs/radeon/source/radeon6a2fca64d824a.jpg"
-  },
-  {
-    "id": 103,
-    "slug": "tvs-sport-es-u559",
-    "name": "TVS SPORT ES-U559",
-    "image": "https://www.tvsmotor.com/lk/-/media/Feature/IB/Webp-Images/Non-Premium/Sport-ES/Home-listing/neon-black-home.webp?la=en&hash=1DEAB0C6C64C5682B05EAE1539B8BAF0034A44A4"
-  },
-  {
-    "id": 104,
-    "slug": "sport-es-obdiib",
-    "name": "SPORT ES+ OBDIIB",
-    "image": "https://www.tvsmotor.com/lk/-/media/Feature/IB/Webp-Images/Non-Premium/Sport-ES/Home-listing/neon-black-home.webp?la=en&hash=1DEAB0C6C64C5682B05EAE1539B8BAF0034A44A4"
-  },
-  {
-    "id": 105,
-    "slug": "star-city-es-mag-whl-tl",
-    "name": "STAR CITY + ES MAG WHL TL",
-    "image": "https://cdn.bikedekho.com/processedimages/tvs/tvs-star-city-plus/source/tvs-star-city-plus68db9fd509079.jpg"
-  },
-  {
-    "id": 106,
-    "slug": "starcity-es-mag-whl",
-    "name": "StarCity + ES MAG WHL",
-    "image": "https://cdn.bikedekho.com/processedimages/tvs/tvs-star-city-plus/source/tvs-star-city-plus68db9fd509079.jpg"
-  },
-  {
-    "id": 107,
-    "slug": "tvs-xl-100-hd-its-obdiib",
-    "name": "TVS XL 100 HD iTs OBDIIB",
-    "image": "https://www.tvsmotor.com/lk/-/media/Feature/IB/Webp-Images/Non-Premium/XL-100-HD/web/Product-Listing/Listing-home-green.webp?la=en&hash=8678CC9257A3E75F6301620C434FFE66ED203E28"
-  },
-  {
-    "id": 108,
-    "slug": "tvs-xl-100-hd-its-bsvi",
-    "name": "TVS XL 100 HD ITS BSVI",
-    "image": "https://www.tvsmotor.com/lk/-/media/Feature/IB/Webp-Images/Non-Premium/XL-100-HD/web/Product-Listing/Listing-home-green.webp?la=en&hash=8678CC9257A3E75F6301620C434FFE66ED203E28"
-  },
-  {
-    "id": 109,
-    "slug": "tvs-xl-100-hd-its-sbs",
-    "name": "TVS XL 100 HD ITS - SBS",
-    "image": "https://www.tvsmotor.com/lk/-/media/Feature/IB/Webp-Images/Non-Premium/XL-100-HD/web/Product-Listing/Listing-home-green.webp?la=en&hash=8678CC9257A3E75F6301620C434FFE66ED203E28"
-  },
-  {
-    "id": 110,
-    "slug": "scooty-pep",
-    "name": "SCOOTY PEP+",
-    "image": "https://cdn.bikedekho.com/processedimages/tvs/tvs-scooty/source/tvs-scooty60069d82e1217.jpg"
-  },
-  {
-    "id": 111,
-    "slug": "scooty-pep-bsvi",
-    "name": "SCOOTY PEP+ - BSVI",
-    "image": "https://cdn.bikedekho.com/processedimages/tvs/tvs-scooty/source/tvs-scooty60069d82e1217.jpg"
-  },
-  {
-    "id": 112,
-    "slug": "scooty-pep-bsiv",
-    "name": "SCOOTY PEP+ BSIV",
-    "image": "https://cdn.bikedekho.com/processedimages/tvs/tvs-scooty/source/tvs-scooty60069d82e1217.jpg"
-  },
-  {
-    "id": 113,
-    "slug": "scooty-zest-matte-series-obdiib",
-    "name": "SCOOTY ZEST MATTE SERIES - OBDIIB",
-    "image": "https://cdn.bikedekho.com/processedimages/tvs/tvs-scooty-zest/source/tvs-scooty-zest68d3de4860aff.jpg"
-  },
-  {
-    "id": 114,
-    "slug": "scooty-zest-matte-series-bsvi",
-    "name": "SCOOTY ZEST MATTE SERIES - BSVI",
-    "image": "https://cdn.bikedekho.com/processedimages/tvs/tvs-scooty-zest/source/tvs-scooty-zest68d3de4860aff.jpg"
-  },
-  {
-    "id": 115,
-    "slug": "scooty-zest-obdiib",
-    "name": "Scooty Zest - OBDIIB",
-    "image": "https://cdn.bikedekho.com/processedimages/tvs/tvs-scooty-zest/source/tvs-scooty-zest68d3de4860aff.jpg"
-  },
-  {
-    "id": 116,
-    "slug": "scooty-zest-matte-series-sbt",
-    "name": "SCOOTY ZEST MATTE SERIES-SBT",
-    "image": "https://cdn.bikedekho.com/processedimages/tvs/tvs-scooty-zest/source/tvs-scooty-zest68d3de4860aff.jpg"
-  },
-  {
-    "id": 117,
-    "slug": "zest-sxc-drum-obdiib",
-    "name": "Zest SXC Drum OBDIIB",
-    "image": "https://cdn.bikedekho.com/processedimages/tvs/tvs-scooty-zest/source/tvs-scooty-zest68d3de4860aff.jpg"
-  },
-  {
-    "id": 118,
-    "slug": "wego",
-    "name": "WEGO",
-    "image": "https://cdn.bikedekho.com/processedimages/tvs/tvs-wego/source/m_wego_61539842493.jpg"
-  },
-  {
-    "id": 119,
-    "slug": "wego-basic-refresh",
-    "name": "WEGO BASIC REFRESH",
-    "image": "https://cdn.bikedekho.com/processedimages/tvs/tvs-wego/source/m_wego_61539842493.jpg"
-  },
-  {
-    "id": 120,
-    "slug": "tvs-wego-bsiv",
-    "name": "TVS WEGO BSIV",
-    "image": "https://cdn.bikedekho.com/processedimages/tvs/tvs-wego/source/m_wego_61539842493.jpg"
-  },
-  {
-    "id": 121,
-    "slug": "wego-refresh",
-    "name": "WEGO Refresh",
-    "image": "https://cdn.bikedekho.com/processedimages/tvs/tvs-wego/source/m_wego_61539842493.jpg"
-  },
-  {
-    "id": 122,
-    "slug": "new-victor-110-disc",
-    "name": "NEW VICTOR 110 DISC",
-    "image": "https://cdn.bikedekho.com/processedimages/tvs/tvs-victor/source/m_victor_61539846543.jpg"
-  },
-  {
-    "id": 123,
-    "slug": "tvs-orbiter-v2",
-    "name": "TVS Orbiter V2",
-    "image": "https://www.tvsmotor.com/lk/-/media/Feature/IB/Webp-Images/Premium/Orbiter/Home/0111.webp?la=en&hash=E198EB0633EC02AC69526AF7DCB9EC118BA5054A"
-  },
-  {
-    "id": 124,
-    "slug": "streak-fashion",
-    "name": "Streak Fashion",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/TVS_Scooty_Streak.jpg/960px-TVS_Scooty_Streak.jpg"
-  },
-  {
-    "id": 125,
-    "slug": "tvs-x",
-    "name": "TVS X",
-    "image": "https://cdn.bikedekho.com/processedimages/tvs/creon/source/creon690ae90f7a501.jpg"
+{
+  "APACHE RTR 160 4V": {
+    "active": true,
+    "image": "https://cdn.bikedekho.com/processedimages/tvs/apache-rtr-160-4v/source/apache-rtr-160-4v6aacee01c9bb2.jpg",
+    "variants": {
+      "2CH ABS USD": {
+        "active": true,
+        "image": "https://cdn.bikedekho.com/processedimages/tvs/apache-rtr-160-4v/source/apache-rtr-160-4v6aacee01c9bb2.jpg",
+        "colors": {}
+      },
+      "RM DISC BLACK EDITION": {
+        "active": true,
+        "image": "https://cdn.bikedekho.com/processedimages/tvs/apache-rtr-160-4v/source/apache-rtr-160-4v6aacee01c9bb2.jpg",
+        "colors": {}
+      },
+      "1CH ABS": {
+        "active": true,
+        "image": "https://cdn.bikedekho.com/processedimages/tvs/apache-rtr-160-4v/source/apache-rtr-160-4v6aacee01c9bb2.jpg",
+        "colors": {}
+      },
+      "2CH ABS USD TFT": {
+        "active": true,
+        "image": "https://cdn.bikedekho.com/processedimages/tvs/apache-rtr-160-4v/source/apache-rtr-160-4v6aacefbfd2df3.jpg",
+        "colors": {
+          "RED": {
+            "active": true,
+            "image": "https://cdn.bikedekho.com/processedimages/tvs/apache-rtr-160-4v/source/apache-rtr-160-4v6aacefbfd2df3.jpg"
+          },
+          "MATTE BLACK": {
+            "active": true,
+            "image": "https://cdn.bikedekho.com/processedimages/tvs/apache-rtr-160-4v/source/apache-rtr-160-4v6aaceffc41c8f.jpg"
+          },
+          "BLUE": {
+            "active": true,
+            "image": "https://cdn.bikedekho.com/processedimages/tvs/apache-rtr-160-4v/source/apache-rtr-160-4v6aacefc017095.jpg"
+          }
+        }
+      },
+      "2CH USD TFT PBI": {
+        "active": true,
+        "image": "https://cdn.bikedekho.com/processedimages/tvs/apache-rtr-160-4v/source/apache-rtr-160-4v6aaceffc41c8f.jpg",
+        "colors": {
+          "MATTE BLACK": {
+            "active": true,
+            "image": "https://cdn.bikedekho.com/processedimages/tvs/apache-rtr-160-4v/source/apache-rtr-160-4v6aaceffc41c8f.jpg"
+          }
+        }
+      }
+    }
+  },
+  "JUPITER 125": {
+    "active": true,
+    "image": "https://cdn.bikedekho.com/processedimages/tvs/jupiter-125/source/jupiter-12569fb243103684.jpg",
+    "variants": {
+      "DISC SXC": {
+        "active": true,
+        "image": "https://cdn.bikedekho.com/processedimages/tvs/jupiter-125/source/jupiter-1256a2ce5eb0c97f.jpg",
+        "colors": {
+          "Red": {
+            "active": true,
+            "image": "https://cdn.bikedekho.com/processedimages/tvs/jupiter-125/source/jupiter-1256a2ce5eb0c97f.jpg"
+          },
+          "Matt Copper": {
+            "active": true,
+            "image": "https://cdn.bikedekho.com/processedimages/tvs/jupiter-125/source/jupiter-1256a2ce5eb41735.jpg"
+          },
+          "Green": {
+            "active": true,
+            "image": "https://cdn.bikedekho.com/processedimages/tvs/jupiter-125/source/jupiter-1256a2ce5eb7553a.jpg"
+          }
+        }
+      },
+      "ALLOY DISC": {
+        "active": true,
+        "image": "https://cdn.bikedekho.com/processedimages/tvs/jupiter-125/source/jupiter-1256a2befcb3a2db.jpg",
+        "colors": {
+          "T.GREY": {
+            "active": true,
+            "image": "https://cdn.bikedekho.com/processedimages/tvs/jupiter-125/source/jupiter-1256a2befcb3a2db.jpg"
+          },
+          "WHITE": {
+            "active": true,
+            "image": "https://cdn.bikedekho.com/processedimages/tvs/jupiter-125/source/jupiter-1256a2becd16379f.jpg"
+          },
+          "BLACK": {
+            "active": true,
+            "image": "https://cdn.bikedekho.com/processedimages/tvs/jupiter-125/source/jupiter-1256a2becd196a0a.jpg"
+          },
+          "BLUE": {
+            "active": true,
+            "image": "https://cdn.bikedekho.com/processedimages/tvs/jupiter-125/source/jupiter-1256a2becd0ee3fa.jpg"
+          }
+        }
+      },
+      "ALLOY DRUM": {
+        "active": true,
+        "image": "https://cdn.bikedekho.com/processedimages/tvs/jupiter-125/source/jupiter-1256a2becd0ee3fa.jpg",
+        "colors": {
+          "BLUE": {
+            "active": true,
+            "image": "https://cdn.bikedekho.com/processedimages/tvs/jupiter-125/source/jupiter-1256a2becd0ee3fa.jpg"
+          },
+          "WHITE": {
+            "active": true,
+            "image": "https://cdn.bikedekho.com/processedimages/tvs/jupiter-125/source/jupiter-1256a2becd16379f.jpg"
+          },
+          "MATT T.GREY": {
+            "active": true,
+            "image": "https://cdn.bikedekho.com/processedimages/tvs/jupiter-125/source/jupiter-1256a2befcb3a2db.jpg"
+          }
+        }
+      },
+      "DISC DT SXC": {
+        "active": true,
+        "image": "https://cdn.bikedekho.com/processedimages/tvs/jupiter-125/source/jupiter-1256a2bee8964e4a.jpg",
+        "colors": {
+          "Copper + White": {
+            "active": true,
+            "image": "https://cdn.bikedekho.com/processedimages/tvs/jupiter-125/source/jupiter-1256a2bee8964e4a.jpg"
+          },
+          "Green + White": {
+            "active": true,
+            "image": "https://cdn.bikedekho.com/processedimages/tvs/jupiter-125/source/jupiter-1256a2bee899ae33.jpg"
+          },
+          "Grey + White": {
+            "active": true,
+            "image": "https://cdn.bikedekho.com/processedimages/tvs/jupiter-125/source/jupiter-1256a2bee892fda0.jpg"
+          },
+          "Brown + White": {
+            "active": true,
+            "image": "https://cdn.bikedekho.com/processedimages/tvs/jupiter-125/source/jupiter-1256a2bee88edffe.jpg"
+          }
+        }
+      }
+    }
+  },
+  "APACHE RTR 160 2V": {
+    "active": true,
+    "image": "https://cdn.bikedekho.com/processedimages/tvs/apache-rtr-160/source/apache-rtr-1606aad371bc5385.jpg",
+    "variants": {
+      "RM DISC BT": {
+        "active": true,
+        "image": "https://cdn.bikedekho.com/processedimages/tvs/apache-rtr-160/source/apache-rtr-1606aad371bc5385.jpg",
+        "colors": {}
+      },
+      "DUAL CHANNEL ABS": {
+        "active": true,
+        "image": "https://cdn.bikedekho.com/processedimages/tvs/apache-rtr-160/source/apache-rtr-1606aad38ac75350.jpg",
+        "colors": {
+          "MATTE BLACK": {
+            "active": true,
+            "image": "https://cdn.bikedekho.com/processedimages/tvs/apache-rtr-160/source/apache-rtr-1606aad38ac75350.jpg"
+          },
+          "WHITE": {
+            "active": true,
+            "image": "https://cdn.bikedekho.com/processedimages/tvs/apache-rtr-160/source/apache-rtr-1606a05a7acee905.jpg"
+          }
+        }
+      },
+      "RACE EDITION": {
+        "active": true,
+        "image": "https://cdn.bikedekho.com/processedimages/tvs/apache-rtr-160/source/apache-rtr-1606aad38ac75350.jpg",
+        "colors": {
+          "MATTE BLACK": {
+            "active": true,
+            "image": "https://cdn.bikedekho.com/processedimages/tvs/apache-rtr-160/source/apache-rtr-1606aad38ac75350.jpg"
+          }
+        }
+      },
+      "RM DISC": {
+        "active": true,
+        "image": "https://cdn.bikedekho.com/processedimages/tvs/apache-rtr-160/source/apache-rtr-1606a05a7acee905.jpg",
+        "colors": {
+          "WHITE": {
+            "active": true,
+            "image": "https://cdn.bikedekho.com/processedimages/tvs/apache-rtr-160/source/apache-rtr-1606a05a7acee905.jpg"
+          }
+        }
+      },
+      "DRUM": {
+        "active": true,
+        "image": "https://cdn.bikedekho.com/processedimages/tvs/apache-rtr-160/source/apache-rtr-1606aad371bc5385.jpg",
+        "colors": {}
+      }
+    }
+  },
+  "SPORT": {
+    "active": true,
+    "image": "https://cdn.bikedekho.com/processedimages/tvs/tvs-sport/source/tvs-sport68a8157bef131.jpg",
+    "variants": {
+      "ES PLUS": {
+        "active": true,
+        "image": "https://cdn.bikedekho.com/processedimages/tvs/tvs-sport/source/tvs-sport69fc5779f39f3.jpg",
+        "colors": {
+          "BLACK": {
+            "active": true,
+            "image": "https://cdn.bikedekho.com/processedimages/tvs/tvs-sport/source/tvs-sport69fc5779f39f3.jpg"
+          },
+          "M GREY": {
+            "active": true,
+            "image": "https://cdn.bikedekho.com/processedimages/tvs/tvs-sport/source/tvs-sport69fc577a33eb3.jpg"
+          }
+        }
+      },
+      "ES": {
+        "active": true,
+        "image": "https://cdn.bikedekho.com/processedimages/tvs/tvs-sport/source/tvs-sport68a8157bef131.jpg",
+        "colors": {}
+      }
+    }
+  },
+  "ZEST": {
+    "active": true,
+    "image": "https://cdn.bikedekho.com/processedimages/tvs/tvs-scooty-zest/source/tvs-scooty-zest68d3de4860aff.jpg",
+    "variants": {
+      "GLOSS": {
+        "active": true,
+        "image": "https://cdn.bikedekho.com/processedimages/tvs/tvs-scooty-zest/source/tvs-scooty-zest66bb1ce33d862.jpg",
+        "colors": {
+          "WHITE": {
+            "active": true,
+            "image": "https://cdn.bikedekho.com/processedimages/tvs/tvs-scooty-zest/source/tvs-scooty-zest66bb1ce33d862.jpg"
+          },
+          "TURQ BLUE": {
+            "active": true,
+            "image": "https://cdn.bikedekho.com/processedimages/tvs/tvs-scooty-zest/source/tvs-scooty-zest66bb1ce293541.jpg"
+          }
+        }
+      },
+      "MATTE": {
+        "active": true,
+        "image": "https://cdn.bikedekho.com/processedimages/tvs/tvs-scooty-zest/source/tvs-scooty-zest68e8eae33698f.jpg",
+        "colors": {
+          "T.GREY": {
+            "active": true,
+            "image": "https://cdn.bikedekho.com/processedimages/tvs/tvs-scooty-zest/source/tvs-scooty-zest68e8eae33698f.jpg"
+          },
+          "BLACK": {
+            "active": true,
+            "image": "https://cdn.bikedekho.com/processedimages/tvs/tvs-scooty-zest/source/tvs-scooty-zest66bb1d89f0aec.jpg"
+          },
+          "PURPLE": {
+            "active": true,
+            "image": "https://cdn.bikedekho.com/processedimages/tvs/tvs-scooty-zest/source/tvs-scooty-zest66bb1d8b12912.jpg"
+          },
+          "BLUE": {
+            "active": true,
+            "image": "https://cdn.bikedekho.com/processedimages/tvs/tvs-scooty-zest/source/tvs-scooty-zest66bb1d8a8a9c8.jpg"
+          }
+        }
+      },
+      "SXC": {
+        "active": true,
+        "image": "https://cdn.bikedekho.com/processedimages/tvs/tvs-scooty-zest/source/tvs-scooty-zest68e8eae37a92f.jpg",
+        "colors": {
+          "BLACK": {
+            "active": true,
+            "image": "https://cdn.bikedekho.com/processedimages/tvs/tvs-scooty-zest/source/tvs-scooty-zest68e8eae37a92f.jpg"
+          },
+          "GREY": {
+            "active": true,
+            "image": "https://cdn.bikedekho.com/processedimages/tvs/tvs-scooty-zest/source/tvs-scooty-zest68e8eae33698f.jpg"
+          }
+        }
+      }
+    }
+  },
+  "NTORQ 125": {
+    "active": true,
+    "image": "https://cdn.bikedekho.com/processedimages/tvs/ntorq-125/source/ntorq-1256a3e458edb293.jpg",
+    "variants": {
+      "SUPER SQUAD": {
+        "active": true,
+        "image": "https://cdn.bikedekho.com/processedimages/tvs/ntorq-125/source/ntorq-1256a3e458edb293.jpg",
+        "colors": {
+          "CAPTAIN AMERICA": {
+            "active": true,
+            "image": "https://cdn.bikedekho.com/processedimages/tvs/ntorq-125/source/ntorq-1256a3e458edb293.jpg"
+          }
+        }
+      },
+      "RACE EDITION": {
+        "active": true,
+        "image": "https://www.tvsmotor.com/lk/-/media/Feature/IB/Vehicles/Product-listing/mob/Ntorq-RE/Ntorq-RE.png?la=en&h=360&w=606&hash=D305D39618C96F9D91518B5EB14F0C6D7DDD1D6D",
+        "colors": {
+          "N.GREEN": {
+            "active": true,
+            "image": "https://www.tvsmotor.com/lk/-/media/Feature/IB/Vehicles/Product-listing/mob/Ntorq-RE/Ntorq-RE.png?la=en&h=360&w=606&hash=D305D39618C96F9D91518B5EB14F0C6D7DDD1D6D"
+          },
+          "RED GREY": {
+            "active": true,
+            "image": "https://cdn.bikedekho.com/processedimages/tvs/ntorq-125/source/ntorq-12568c3e5cae6ed8.jpg"
+          },
+          "H.BLUE": {
+            "active": true,
+            "image": "https://www.tvsmotor.com/lk/-/media/Feature/IB/Vehicles/Product-listing/mob/Ntorq-RE/Ntorq-RE.png?la=en&h=360&w=606&hash=D305D39618C96F9D91518B5EB14F0C6D7DDD1D6D"
+          },
+          "RED BLACK": {
+            "active": true,
+            "image": "https://cdn.bikedekho.com/processedimages/tvs/ntorq-125/source/ntorq-12568c3e5cae6ed8.jpg"
+          }
+        }
+      },
+      "XT": {
+        "active": true,
+        "image": "https://cdn.bikedekho.com/processedimages/tvs/ntorq-125/source/ntorq-12568c3e3647b2ac.jpg",
+        "colors": {
+          "NEON": {
+            "active": true,
+            "image": "https://cdn.bikedekho.com/processedimages/tvs/ntorq-125/source/ntorq-12568c3e3647b2ac.jpg"
+          }
+        }
+      },
+      "DISC": {
+        "active": true,
+        "image": "https://cdn.bikedekho.com/processedimages/tvs/ntorq-125/source/ntorq-1256a3e43867723a.jpg",
+        "colors": {
+          "WHITE": {
+            "active": true,
+            "image": "https://cdn.bikedekho.com/processedimages/tvs/ntorq-125/source/ntorq-1256a3e43867723a.jpg"
+          },
+          "BLACK": {
+            "active": true,
+            "image": "https://cdn.bikedekho.com/processedimages/tvs/ntorq-125/source/ntorq-1256a3e4386408e0.jpg"
+          },
+          "H BLUE": {
+            "active": true,
+            "image": "https://cdn.bikedekho.com/processedimages/tvs/ntorq-125/source/ntorq-1256a3e43867723a.jpg"
+          },
+          "GREY": {
+            "active": true,
+            "image": "https://cdn.bikedekho.com/processedimages/tvs/ntorq-125/source/ntorq-1256a3e4386ac9a7.jpg"
+          }
+        }
+      },
+      "RACE XP": {
+        "active": true,
+        "image": "https://www.tvsmotor.com/lk/-/media/Feature/IB/Webp-Images/Non-Premium/Ntorq-125-XP-FI/Web/NTORQ-125-XP-FI-606X360.png?la=en&h=360&w=606&hash=A7AA9C8A3C0DDEF0D6662F68D78EF040723A6264",
+        "colors": {
+          "RED": {
+            "active": true,
+            "image": "https://www.tvsmotor.com/lk/-/media/Feature/IB/Webp-Images/Non-Premium/Ntorq-125-XP-FI/Web/NTORQ-125-XP-FI-606X360.png?la=en&h=360&w=606&hash=A7AA9C8A3C0DDEF0D6662F68D78EF040723A6264"
+          },
+          "BLUE": {
+            "active": true,
+            "image": "https://www.tvsmotor.com/lk/-/media/Feature/IB/Webp-Images/Non-Premium/Ntorq-125-XP-FI/Web/NTORQ-125-XP-FI-606X360.png?la=en&h=360&w=606&hash=A7AA9C8A3C0DDEF0D6662F68D78EF040723A6264"
+          },
+          "BLACK": {
+            "active": true,
+            "image": "https://www.tvsmotor.com/lk/-/media/Feature/IB/Webp-Images/Non-Premium/Ntorq-125-XP-FI/Web/NTORQ-125-XP-FI-606X360.png?la=en&h=360&w=606&hash=A7AA9C8A3C0DDEF0D6662F68D78EF040723A6264"
+          }
+        }
+      }
+    }
+  },
+  "APACHE RTR 180 2V": {
+    "active": true,
+    "image": "https://cdn.bikedekho.com/processedimages/tvs/tvs-apache-rtr-180/source/tvs-apache-rtr-18068d3db9a60788.jpg",
+    "variants": {
+      "RM DISC BT": {
+        "active": true,
+        "image": "https://cdn.bikedekho.com/processedimages/tvs/tvs-apache-rtr-180/source/tvs-apache-rtr-18068d3db9a60788.jpg",
+        "colors": {}
+      }
+    }
+  },
+  "ORBITER": {
+    "active": true,
+    "image": "https://cdn.bikedekho.com/processedimages/tvs/tvs-electric-scooter/source/tvs-electric-scooter68ce618bd4daf.jpg",
+    "variants": {
+      "V2": {
+        "active": true,
+        "image": "https://cdn.bikedekho.com/processedimages/tvs/tvs-electric-scooter/source/tvs-electric-scooter68b02fa1b5836.jpg",
+        "colors": {
+          "NEON SUNBURST": {
+            "active": true,
+            "image": "https://cdn.bikedekho.com/processedimages/tvs/tvs-electric-scooter/source/tvs-electric-scooter68b02fa1b5836.jpg"
+          },
+          "LUNAR GREY": {
+            "active": true,
+            "image": "https://cdn.bikedekho.com/processedimages/tvs/tvs-electric-scooter/source/tvs-electric-scooter68b02fa239cb9.jpg"
+          },
+          "MARTIAN COPPER": {
+            "active": true,
+            "image": "https://cdn.bikedekho.com/processedimages/tvs/tvs-electric-scooter/source/tvs-electric-scooter69b28b240dd1a.jpg"
+          },
+          "COSMIC TITANIUM": {
+            "active": true,
+            "image": "https://cdn.bikedekho.com/processedimages/tvs/tvs-electric-scooter/source/tvs-electric-scooter68b030b600092.jpg"
+          },
+          "STELLAR SILVER": {
+            "active": true,
+            "image": "https://cdn.bikedekho.com/processedimages/tvs/tvs-electric-scooter/source/tvs-electric-scooter69b28b2448cb6.jpg"
+          },
+          "STRATOS BLUE": {
+            "active": true,
+            "image": "https://cdn.bikedekho.com/processedimages/tvs/tvs-electric-scooter/source/tvs-electric-scooter68b02fa1f2323.jpg"
+          }
+        }
+      },
+      "V1": {
+        "active": true,
+        "image": "https://cdn.bikedekho.com/processedimages/tvs/tvs-electric-scooter/source/tvs-electric-scooter69b28b2448cb6.jpg",
+        "colors": {
+          "STELLAR SILVER": {
+            "active": true,
+            "image": "https://cdn.bikedekho.com/processedimages/tvs/tvs-electric-scooter/source/tvs-electric-scooter69b28b2448cb6.jpg"
+          },
+          "MARTIAN COPPER": {
+            "active": true,
+            "image": "https://cdn.bikedekho.com/processedimages/tvs/tvs-electric-scooter/source/tvs-electric-scooter69b28b240dd1a.jpg"
+          }
+        }
+      }
+    }
+  },
+  "APACHE RTR 200 4V": {
+    "active": true,
+    "image": "https://cdn.bikedekho.com/processedimages/tvs/2025-apache-rtr-200-4v/source/2025-apache-rtr-200-4v6aacfda1cdb39.jpg",
+    "variants": {
+      "2CH ABS USD TFT": {
+        "active": true,
+        "image": "https://cdn.bikedekho.com/processedimages/tvs/2025-apache-rtr-200-4v/source/2025-apache-rtr-200-4v68bebbcb0b81d.jpg",
+        "colors": {
+          "MATTE BLACK": {
+            "active": true,
+            "image": "https://cdn.bikedekho.com/processedimages/tvs/2025-apache-rtr-200-4v/source/2025-apache-rtr-200-4v68bebbcb0b81d.jpg"
+          },
+          "GREY": {
+            "active": true,
+            "image": "https://cdn.bikedekho.com/processedimages/tvs/2025-apache-rtr-200-4v/source/2025-apache-rtr-200-4v6aad000a0f15b.jpg"
+          }
+        }
+      }
+    }
+  },
+  "XL 100": {
+    "active": true,
+    "image": "https://cdn.bikedekho.com/processedimages/tvs/tvs-xl100/source/tvs-xl10068cd1d42ef373.jpg",
+    "variants": {
+      "WINNER EDTN": {
+        "active": true,
+        "image": "https://cdn.bikedekho.com/processedimages/tvs/tvs-xl100/source/tvs-xl10068cd1e6c6059e.jpg",
+        "colors": {
+          "BLUE": {
+            "active": true,
+            "image": "https://cdn.bikedekho.com/processedimages/tvs/tvs-xl100/source/tvs-xl10068cd1e6c6059e.jpg"
+          }
+        }
+      },
+      "HD iTOUCH": {
+        "active": true,
+        "image": "https://cdn.bikedekho.com/processedimages/tvs/tvs-xl100/source/tvs-xl10068cd1e6c2364e.jpg",
+        "colors": {
+          "RED": {
+            "active": true,
+            "image": "https://cdn.bikedekho.com/processedimages/tvs/tvs-xl100/source/tvs-xl10068cd1e6c2364e.jpg"
+          },
+          "BLACK": {
+            "active": true,
+            "image": "https://cdn.bikedekho.com/processedimages/tvs/tvs-xl100/source/tvs-xl10068c0fb2eebcb6.jpg"
+          },
+          "PURPLE": {
+            "active": true,
+            "image": "https://cdn.bikedekho.com/processedimages/tvs/tvs-xl100/source/tvs-xl10068c0fac4d293d.jpg"
+          },
+          "BLUE": {
+            "active": true,
+            "image": "https://cdn.bikedekho.com/processedimages/tvs/tvs-xl100/source/tvs-xl10068cd1e6c6059e.jpg"
+          },
+          "GREEN": {
+            "active": true,
+            "image": "https://cdn.bikedekho.com/processedimages/tvs/tvs-xl100/source/tvs-xl10068c13d9caf703.jpg"
+          }
+        }
+      },
+      "XL 100 HD iTs MWL": {
+        "active": true,
+        "image": "https://cdn.bikedekho.com/processedimages/tvs/tvs-xl100/source/tvs-xl10068cd1e6c2364e.jpg",
+        "colors": {
+          "RED": {
+            "active": true,
+            "image": "https://cdn.bikedekho.com/processedimages/tvs/tvs-xl100/source/tvs-xl10068cd1e6c2364e.jpg"
+          }
+        }
+      }
+    }
+  },
+  "RADEON": {
+    "active": true,
+    "image": "https://cdn.bikedekho.com/processedimages/tvs/radeon/source/radeon6a2fca64d824a.jpg",
+    "variants": {
+      "DIGI DISC": {
+        "active": true,
+        "image": "https://cdn.bikedekho.com/processedimages/tvs/radeon/source/radeon6a2fc7b104343.jpg",
+        "colors": {
+          "RED BLACK": {
+            "active": true,
+            "image": "https://cdn.bikedekho.com/processedimages/tvs/radeon/source/radeon6a2fc7b104343.jpg"
+          },
+          "BLACK": {
+            "active": true,
+            "image": "https://cdn.bikedekho.com/processedimages/tvs/radeon/source/radeon6a2fca064e1f1.jpg"
+          },
+          "BLUE BLACK": {
+            "active": true,
+            "image": "https://cdn.bikedekho.com/processedimages/tvs/radeon/source/radeon6a2fc796d1db4.jpg"
+          }
+        }
+      },
+      "DIGI DRUM": {
+        "active": true,
+        "image": "https://cdn.bikedekho.com/processedimages/tvs/radeon/source/radeon6a2fc7b104343.jpg",
+        "colors": {
+          "RED BLACK": {
+            "active": true,
+            "image": "https://cdn.bikedekho.com/processedimages/tvs/radeon/source/radeon6a2fc7b104343.jpg"
+          },
+          "BLACK": {
+            "active": true,
+            "image": "https://cdn.bikedekho.com/processedimages/tvs/radeon/source/radeon6a2fca064e1f1.jpg"
+          },
+          "BLUE BLACK": {
+            "active": true,
+            "image": "https://cdn.bikedekho.com/processedimages/tvs/radeon/source/radeon6a2fc796d1db4.jpg"
+          }
+        }
+      },
+      "DRUM": {
+        "active": true,
+        "image": "https://cdn.bikedekho.com/processedimages/tvs/radeon/source/radeon6a2fc9b30a4e3.jpg",
+        "colors": {
+          "BLACK": {
+            "active": true,
+            "image": "https://cdn.bikedekho.com/processedimages/tvs/radeon/source/radeon6a2fc9b30a4e3.jpg"
+          },
+          "PURPLE": {
+            "active": true,
+            "image": "https://cdn.bikedekho.com/processedimages/tvs/radeon/source/radeon6a2fc9b34180d.jpg"
+          },
+          "GREY": {
+            "active": true,
+            "image": "https://cdn.bikedekho.com/processedimages/tvs/radeon/source/radeon6a2fc9b3774ea.jpg"
+          },
+          "STARLIGHT BLUE": {
+            "active": true,
+            "image": "https://cdn.bikedekho.com/processedimages/tvs/radeon/source/radeon6a2fc9b3ac443.jpg"
+          }
+        }
+      },
+      "DRUM BLACK EDITION": {
+        "active": true,
+        "image": "https://cdn.bikedekho.com/processedimages/tvs/radeon/source/radeon6a2fc774db9f2.jpg",
+        "colors": {
+          "BLACK": {
+            "active": true,
+            "image": "https://cdn.bikedekho.com/processedimages/tvs/radeon/source/radeon6a2fc774db9f2.jpg"
+          }
+        }
+      }
+    }
+  },
+  "NTORQ 150": {
+    "active": true,
+    "image": "https://cdn.bikedekho.com/processedimages/tvs/ntorq-150/source/ntorq-15068b964592ed57.jpg",
+    "variants": {
+      "LCD": {
+        "active": true,
+        "image": "https://cdn.bikedekho.com/processedimages/tvs/ntorq-150/source/ntorq-15068b96570a4979.jpg",
+        "colors": {
+          "RED": {
+            "active": true,
+            "image": "https://cdn.bikedekho.com/processedimages/tvs/ntorq-150/source/ntorq-15068b96570a4979.jpg"
+          },
+          "BLUE": {
+            "active": true,
+            "image": "https://cdn.bikedekho.com/processedimages/tvs/ntorq-150/source/ntorq-15068b96570e1d70.jpg"
+          },
+          "SILVER": {
+            "active": true,
+            "image": "https://cdn.bikedekho.com/processedimages/tvs/ntorq-150/source/ntorq-15068b96b73a4fc8.jpg"
+          }
+        }
+      },
+      "TFT": {
+        "active": true,
+        "image": "https://cdn.bikedekho.com/processedimages/tvs/ntorq-150/source/ntorq-15068b96570a4979.jpg",
+        "colors": {
+          "RED": {
+            "active": true,
+            "image": "https://cdn.bikedekho.com/processedimages/tvs/ntorq-150/source/ntorq-15068b96570a4979.jpg"
+          },
+          "BLUE": {
+            "active": true,
+            "image": "https://cdn.bikedekho.com/processedimages/tvs/ntorq-150/source/ntorq-15068b96570e1d70.jpg"
+          },
+          "NITRO GREEN": {
+            "active": true,
+            "image": "https://cdn.bikedekho.com/processedimages/tvs/ntorq-150/source/ntorq-15068b96d733bbb1.jpg"
+          }
+        }
+      }
+    }
+  },
+  "APACHE RR 310": {
+    "active": true,
+    "image": "https://cdn.bikedekho.com/processedimages/tvs/tvs-akula-310/source/tvs-akula-3106801fd77c3c88.jpg",
+    "variants": {
+      "BASE RED W/O Quick Shifter": {
+        "active": true,
+        "image": "https://cdn.bikedekho.com/processedimages/tvs/tvs-akula-310/source/tvs-akula-3106801fd77c3c88.jpg",
+        "colors": {
+          "RACING RED": {
+            "active": true,
+            "image": "https://cdn.bikedekho.com/processedimages/tvs/tvs-akula-310/source/tvs-akula-3106801fd77c3c88.jpg"
+          }
+        }
+      },
+      "BASE RED": {
+        "active": true,
+        "image": "https://cdn.bikedekho.com/processedimages/tvs/tvs-akula-310/source/tvs-akula-3106801fd77c3c88.jpg",
+        "colors": {
+          "RACING RED": {
+            "active": true,
+            "image": "https://cdn.bikedekho.com/processedimages/tvs/tvs-akula-310/source/tvs-akula-3106801fd77c3c88.jpg"
+          }
+        }
+      },
+      "BASE GREY": {
+        "active": true,
+        "image": "https://cdn.bikedekho.com/processedimages/tvs/tvs-akula-310/source/tvs-akula-3106801fe4080628.jpg",
+        "colors": {
+          "GREY": {
+            "active": true,
+            "image": "https://cdn.bikedekho.com/processedimages/tvs/tvs-akula-310/source/tvs-akula-3106801fe4080628.jpg"
+          }
+        }
+      }
+    }
+  },
+  "APACHE RTR 310": {
+    "active": true,
+    "image": "https://cdn.bikedekho.com/processedimages/tvs/2025-apache-rtr-310/source/2025-apache-rtr-3106aad2bfdac2b0.jpg",
+    "variants": {
+      "BASE YELLOW": {
+        "active": true,
+        "image": "https://cdn.bikedekho.com/processedimages/tvs/2025-apache-rtr-310/source/2025-apache-rtr-31068ba87e0e3e80.jpg",
+        "colors": {
+          "BLK YLW": {
+            "active": true,
+            "image": "https://cdn.bikedekho.com/processedimages/tvs/2025-apache-rtr-310/source/2025-apache-rtr-31068ba87e0e3e80.jpg"
+          }
+        }
+      },
+      "BASE RED": {
+        "active": true,
+        "image": "https://cdn.bikedekho.com/processedimages/tvs/2025-apache-rtr-310/source/2025-apache-rtr-31068ba87c630059.jpg",
+        "colors": {
+          "RC RED": {
+            "active": true,
+            "image": "https://cdn.bikedekho.com/processedimages/tvs/2025-apache-rtr-310/source/2025-apache-rtr-31068ba87c630059.jpg"
+          }
+        }
+      },
+      "BASE W/o QUICK SHIFTER": {
+        "active": true,
+        "image": "https://cdn.bikedekho.com/processedimages/tvs/2025-apache-rtr-310/source/2025-apache-rtr-3106aad2bfdac2b0.jpg",
+        "colors": {}
+      },
+      "BASE BLACK": {
+        "active": true,
+        "image": "https://cdn.bikedekho.com/processedimages/tvs/2025-apache-rtr-310/source/2025-apache-rtr-31068ba885dcf975.jpg",
+        "colors": {
+          "GL BLK": {
+            "active": true,
+            "image": "https://cdn.bikedekho.com/processedimages/tvs/2025-apache-rtr-310/source/2025-apache-rtr-31068ba885dcf975.jpg"
+          }
+        }
+      }
+    }
+  },
+  "RAIDER": {
+    "active": true,
+    "image": "https://cdn.bikedekho.com/processedimages/tvs/raider/source/raider68b7fd149e32c.jpg",
+    "variants": {
+      "DRUM Single Seat": {
+        "active": true,
+        "image": "https://cdn.bikedekho.com/processedimages/tvs/raider/source/raider685a26418f20f.jpg",
+        "colors": {
+          "BLACK": {
+            "active": true,
+            "image": "https://cdn.bikedekho.com/processedimages/tvs/raider/source/raider685a26418f20f.jpg"
+          }
+        }
+      },
+      "DISC Single Seat": {
+        "active": true,
+        "image": "https://cdn.bikedekho.com/processedimages/tvs/raider/source/raider69e9c2869433b.jpg",
+        "colors": {
+          "M.GREY": {
+            "active": true,
+            "image": "https://cdn.bikedekho.com/processedimages/tvs/raider/source/raider69e9c2869433b.jpg"
+          }
+        }
+      },
+      "Super Squad": {
+        "active": true,
+        "image": "https://cdn.bikedekho.com/processedimages/tvs/raider/source/raider68ad66e19bb58.jpg",
+        "colors": {
+          "DEADPOOL BLACK": {
+            "active": true,
+            "image": "https://cdn.bikedekho.com/processedimages/tvs/raider/source/raider68ad66e19bb58.jpg"
+          },
+          "WOLVERINE GREY": {
+            "active": true,
+            "image": "https://cdn.bikedekho.com/processedimages/tvs/raider/source/raider68ad66e1d8a73.jpg"
+          },
+          "BLACK PANTHER": {
+            "active": true,
+            "image": "https://cdn.bikedekho.com/processedimages/tvs/raider/source/raider68ad66e11d3dd.jpg"
+          },
+          "DOOMSDAY GREEN": {
+            "active": true,
+            "image": "https://cdn.bikedekho.com/processedimages/tvs/raider/source/raider6a6c300dee200.jpg"
+          },
+          "IRONMAN RED": {
+            "active": true,
+            "image": "https://cdn.bikedekho.com/processedimages/tvs/raider/source/raider68ad66e15e0e1.jpg"
+          }
+        }
+      },
+      "LCD DD 1Ch ABS": {
+        "active": true,
+        "image": "https://cdn.bikedekho.com/processedimages/tvs/raider/source/raider68e3c837c6f1a.jpg",
+        "colors": {
+          "BLUE": {
+            "active": true,
+            "image": "https://cdn.bikedekho.com/processedimages/tvs/raider/source/raider68e3c837c6f1a.jpg"
+          },
+          "STRIKING RED": {
+            "active": true,
+            "image": "https://cdn.bikedekho.com/processedimages/tvs/raider/source/raider68e3c837c6f1a.jpg"
+          },
+          "NITRO GREEN": {
+            "active": true,
+            "image": "https://cdn.bikedekho.com/processedimages/tvs/raider/source/raider69e9c37d35a87.jpg"
+          }
+        }
+      },
+      "TFT DD 1Ch ABS": {
+        "active": true,
+        "image": "https://cdn.bikedekho.com/processedimages/tvs/raider/source/raider68e3c837c6f1a.jpg",
+        "colors": {
+          "BLUE": {
+            "active": true,
+            "image": "https://cdn.bikedekho.com/processedimages/tvs/raider/source/raider68e3c837c6f1a.jpg"
+          },
+          "STRIKING RED": {
+            "active": true,
+            "image": "https://cdn.bikedekho.com/processedimages/tvs/raider/source/raider68e3c837c6f1a.jpg"
+          },
+          "NITRO GREEN": {
+            "active": true,
+            "image": "https://cdn.bikedekho.com/processedimages/tvs/raider/source/raider69e9c37d35a87.jpg"
+          }
+        }
+      },
+      "iGO BW": {
+        "active": true,
+        "image": "https://cdn.bikedekho.com/processedimages/tvs/raider/source/raider685a26418f20f.jpg",
+        "colors": {
+          "FZ BLUE": {
+            "active": true,
+            "image": "https://cdn.bikedekho.com/processedimages/tvs/raider/source/raider685a26418f20f.jpg"
+          },
+          "BLACK": {
+            "active": true,
+            "image": "https://cdn.bikedekho.com/processedimages/tvs/raider/source/raider685a26418f20f.jpg"
+          },
+          "STRIKING RED": {
+            "active": true,
+            "image": "https://cdn.bikedekho.com/processedimages/tvs/raider/source/raider68e3c837c6f1a.jpg"
+          }
+        }
+      },
+      "iGO RW": {
+        "active": true,
+        "image": "https://cdn.bikedekho.com/processedimages/tvs/raider/source/raider685a2248e5dba.jpg",
+        "colors": {
+          "NARDO GREY": {
+            "active": true,
+            "image": "https://cdn.bikedekho.com/processedimages/tvs/raider/source/raider685a2248e5dba.jpg"
+          },
+          "BLACK": {
+            "active": true,
+            "image": "https://cdn.bikedekho.com/processedimages/tvs/raider/source/raider685a26418f20f.jpg"
+          }
+        }
+      }
+    }
+  },
+  "X": {
+    "active": true,
+    "image": "https://cdn.bikedekho.com/processedimages/tvs/creon/source/creon690ae90f7a501.jpg",
+    "variants": {
+      "X": {
+        "active": true,
+        "image": "https://cdn.bikedekho.com/processedimages/tvs/creon/source/creon65ec31ef789a3.jpg",
+        "colors": {
+          "HELKET RED": {
+            "active": true,
+            "image": "https://cdn.bikedekho.com/processedimages/tvs/creon/source/creon65ec31ef789a3.jpg"
+          }
+        }
+      }
+    }
+  },
+  "IQUBE": {
+    "active": true,
+    "image": "https://cdn.bikedekho.com/processedimages/tvs/iqube-electric/source/iqube-electric69f89957d2575.jpg",
+    "variants": {
+      "UG (3.5 kWh)": {
+        "active": true,
+        "image": "https://cdn.bikedekho.com/processedimages/tvs/iqube-electric/source/iqube-electric6a8d4f137027e.jpg",
+        "colors": {
+          "T GREY": {
+            "active": true,
+            "image": "https://cdn.bikedekho.com/processedimages/tvs/iqube-electric/source/iqube-electric6a8d4f137027e.jpg"
+          },
+          "WHITE": {
+            "active": true,
+            "image": "https://cdn.bikedekho.com/processedimages/tvs/iqube-electric/source/iqube-electric6a8d4f1302007.jpg"
+          },
+          "WALNUT BROWN": {
+            "active": true,
+            "image": "https://cdn.bikedekho.com/processedimages/tvs/iqube-electric/source/iqube-electric6a8d4f13386a6.jpg"
+          }
+        }
+      },
+      "MillionR (3.5 kWh)": {
+        "active": true,
+        "image": "https://cdn.bikedekho.com/processedimages/tvs/iqube-electric/source/iqube-electric6a8d3d119a8b3.jpg",
+        "colors": {
+          "AURORA GREEN": {
+            "active": true,
+            "image": "https://cdn.bikedekho.com/processedimages/tvs/iqube-electric/source/iqube-electric6a8d3d119a8b3.jpg"
+          }
+        }
+      },
+      "S 15 (4.7 kWh)": {
+        "active": true,
+        "image": "https://cdn.bikedekho.com/processedimages/tvs/iqube-electric/source/iqube-electric6a8d4f137027e.jpg",
+        "colors": {
+          "T GREY MATTE": {
+            "active": true,
+            "image": "https://cdn.bikedekho.com/processedimages/tvs/iqube-electric/source/iqube-electric6a8d4f137027e.jpg"
+          }
+        }
+      },
+      "ST 17 Beige (5.3 kWh)": {
+        "active": true,
+        "image": "https://cdn.bikedekho.com/processedimages/tvs/iqube-electric/source/iqube-electric698da0042f8c1.jpg",
+        "colors": {
+          "STR BLUE": {
+            "active": true,
+            "image": "https://cdn.bikedekho.com/processedimages/tvs/iqube-electric/source/iqube-electric698da0042f8c1.jpg"
+          },
+          "COPPER BRONZE": {
+            "active": true,
+            "image": "https://cdn.bikedekho.com/processedimages/tvs/iqube-electric/source/iqube-electric698da00469601.jpg"
+          }
+        }
+      },
+      "ST 17 (5.3 kWh)": {
+        "active": true,
+        "image": "https://cdn.bikedekho.com/processedimages/tvs/iqube-electric/source/iqube-electric6a8d4f137027e.jpg",
+        "colors": {
+          "T GREY MATTE": {
+            "active": true,
+            "image": "https://cdn.bikedekho.com/processedimages/tvs/iqube-electric/source/iqube-electric6a8d4f137027e.jpg"
+          }
+        }
+      },
+      "09 (2.3 kWh)": {
+        "active": true,
+        "image": "https://cdn.bikedekho.com/processedimages/tvs/iqube-electric/source/iqube-electric69f89957d2575.jpg",
+        "colors": {}
+      },
+      "11 Beige (3.1 kWh)": {
+        "active": true,
+        "image": "https://cdn.bikedekho.com/processedimages/tvs/iqube-electric/source/iqube-electric698da0042f8c1.jpg",
+        "colors": {
+          "STARLIGHT BLUE": {
+            "active": true,
+            "image": "https://cdn.bikedekho.com/processedimages/tvs/iqube-electric/source/iqube-electric698da0042f8c1.jpg"
+          }
+        }
+      },
+      "UG Beige (3.5 kWh)": {
+        "active": true,
+        "image": "https://cdn.bikedekho.com/processedimages/tvs/iqube-electric/source/iqube-electric698da0042f8c1.jpg",
+        "colors": {
+          "STR BLUE": {
+            "active": true,
+            "image": "https://cdn.bikedekho.com/processedimages/tvs/iqube-electric/source/iqube-electric698da0042f8c1.jpg"
+          },
+          "COPPER BRONZE": {
+            "active": true,
+            "image": "https://cdn.bikedekho.com/processedimages/tvs/iqube-electric/source/iqube-electric698da00469601.jpg"
+          }
+        }
+      },
+      "S 15 Beige (4.7 kWh)": {
+        "active": true,
+        "image": "https://cdn.bikedekho.com/processedimages/tvs/iqube-electric/source/iqube-electric698da0042f8c1.jpg",
+        "colors": {
+          "BLUE": {
+            "active": true,
+            "image": "https://cdn.bikedekho.com/processedimages/tvs/iqube-electric/source/iqube-electric698da0042f8c1.jpg"
+          },
+          "PURPLE": {
+            "active": true,
+            "image": "https://cdn.bikedekho.com/processedimages/tvs/iqube-electric/source/iqube-electric698da0042f8c1.jpg"
+          }
+        }
+      },
+      "11 (3.1 kWh)": {
+        "active": true,
+        "image": "https://cdn.bikedekho.com/processedimages/tvs/iqube-electric/source/iqube-electric6a8d4f137027e.jpg",
+        "colors": {
+          "T GREY": {
+            "active": true,
+            "image": "https://cdn.bikedekho.com/processedimages/tvs/iqube-electric/source/iqube-electric6a8d4f137027e.jpg"
+          },
+          "WHITE": {
+            "active": true,
+            "image": "https://cdn.bikedekho.com/processedimages/tvs/iqube-electric/source/iqube-electric6a8d4f1302007.jpg"
+          }
+        }
+      }
+    }
+  },
+  "RONIN": {
+    "active": true,
+    "image": "https://www.tvsmotor.com/lk/-/media/Feature/IB/Webp-Images/Premium/Ronin-Nimbus/Web/Listing/home-listing-new11.webp?la=en&hash=3625F3D6D532DC4E046AFC5EB605ED8618BCC249",
+    "variants": {
+      "MID EMBER": {
+        "active": true,
+        "image": "https://www.tvsmotor.com/lk/-/media/Feature/IB/Webp-Images/Premium/Ronin-Nimbus/Web/Listing/home-listing-new11.webp?la=en&hash=3625F3D6D532DC4E046AFC5EB605ED8618BCC249",
+        "colors": {
+          "CHARCOAL EMBER": {
+            "active": true,
+            "image": "https://www.tvsmotor.com/lk/-/media/Feature/IB/Webp-Images/Premium/Ronin-Nimbus/Web/Listing/home-listing-new11.webp?la=en&hash=3625F3D6D532DC4E046AFC5EB605ED8618BCC249"
+          }
+        }
+      },
+      "MID SILVER": {
+        "active": true,
+        "image": "https://www.tvsmotor.com/lk/-/media/Feature/IB/Webp-Images/Premium/Ronin-Nimbus/Web/Listing/home-listing-new11.webp?la=en&hash=3625F3D6D532DC4E046AFC5EB605ED8618BCC249",
+        "colors": {
+          "GLACIER SILVER": {
+            "active": true,
+            "image": "https://www.tvsmotor.com/lk/-/media/Feature/IB/Webp-Images/Premium/Ronin-Nimbus/Web/Listing/home-listing-new11.webp?la=en&hash=3625F3D6D532DC4E046AFC5EB605ED8618BCC249"
+          }
+        }
+      },
+      "BASE RED": {
+        "active": true,
+        "image": "https://www.tvsmotor.com/lk/-/media/Feature/IB/Webp-Images/Premium/Ronin-Nimbus/Web/Listing/home-listing-new11.webp?la=en&hash=3625F3D6D532DC4E046AFC5EB605ED8618BCC249",
+        "colors": {
+          "MAGMA RED": {
+            "active": true,
+            "image": "https://www.tvsmotor.com/lk/-/media/Feature/IB/Webp-Images/Premium/Ronin-Nimbus/Web/Listing/home-listing-new11.webp?la=en&hash=3625F3D6D532DC4E046AFC5EB605ED8618BCC249"
+          }
+        }
+      },
+      "AGONDA EDITION": {
+        "active": true,
+        "image": "https://www.tvsmotor.com/lk/-/media/Feature/IB/Webp-Images/Premium/Ronin-Nimbus/Web/Listing/home-listing-new11.webp?la=en&hash=3625F3D6D532DC4E046AFC5EB605ED8618BCC249",
+        "colors": {
+          "WHITE": {
+            "active": true,
+            "image": "https://www.tvsmotor.com/lk/-/media/Feature/IB/Webp-Images/Premium/Ronin-Nimbus/Web/Listing/home-listing-new11.webp?la=en&hash=3625F3D6D532DC4E046AFC5EB605ED8618BCC249"
+          }
+        }
+      },
+      "TOP": {
+        "active": true,
+        "image": "https://www.tvsmotor.com/lk/-/media/Feature/IB/Webp-Images/Premium/Ronin-Nimbus/Web/Listing/home-listing-new11.webp?la=en&hash=3625F3D6D532DC4E046AFC5EB605ED8618BCC249",
+        "colors": {
+          "NIMBUS GREY": {
+            "active": true,
+            "image": "https://www.tvsmotor.com/lk/-/media/Feature/IB/Webp-Images/Premium/Ronin-Nimbus/Web/Listing/home-listing-new11.webp?la=en&hash=3625F3D6D532DC4E046AFC5EB605ED8618BCC249"
+          },
+          "MIDNIGHT BLUE": {
+            "active": true,
+            "image": "https://www.tvsmotor.com/lk/-/media/Feature/IB/Webp-Images/Premium/Ronin-Nimbus/Web/Listing/home-listing-new11.webp?la=en&hash=3625F3D6D532DC4E046AFC5EB605ED8618BCC249"
+          }
+        }
+      },
+      "BASE BLACK": {
+        "active": true,
+        "image": "https://www.tvsmotor.com/lk/-/media/Feature/IB/Webp-Images/Premium/Ronin-Nimbus/Web/Listing/home-listing-new11.webp?la=en&hash=3625F3D6D532DC4E046AFC5EB605ED8618BCC249",
+        "colors": {
+          "LIGHTNING BLACK": {
+            "active": true,
+            "image": "https://www.tvsmotor.com/lk/-/media/Feature/IB/Webp-Images/Premium/Ronin-Nimbus/Web/Listing/home-listing-new11.webp?la=en&hash=3625F3D6D532DC4E046AFC5EB605ED8618BCC249"
+          }
+        }
+      }
+    }
+  },
+  "JUPITER": {
+    "active": true,
+    "image": "https://cdn.bikedekho.com/processedimages/tvs/jupiter/source/jupiter68c8080e2422c.jpg",
+    "variants": {
+      "DT": {
+        "active": true,
+        "image": "https://cdn.bikedekho.com/processedimages/tvs/jupiter/source/jupiter6a8fe6ffd7f8f.jpg",
+        "colors": {
+          "SPECTRAL BLUE": {
+            "active": true,
+            "image": "https://cdn.bikedekho.com/processedimages/tvs/jupiter/source/jupiter6a8fe6ffd7f8f.jpg"
+          },
+          "SPECTRAL COPPER": {
+            "active": true,
+            "image": "https://cdn.bikedekho.com/processedimages/tvs/jupiter/source/jupiter6a8fe7001a67e.jpg"
+          }
+        }
+      },
+      "DISC SXC": {
+        "active": true,
+        "image": "https://cdn.bikedekho.com/processedimages/tvs/jupiter/source/jupiter6a2fc23703a8c.jpg",
+        "colors": {
+          "DAWN BLUE MATT": {
+            "active": true,
+            "image": "https://cdn.bikedekho.com/processedimages/tvs/jupiter/source/jupiter6a2fc23703a8c.jpg"
+          },
+          "STRLT BLUE": {
+            "active": true,
+            "image": "https://cdn.bikedekho.com/processedimages/tvs/jupiter/source/jupiter6a2fc4b6e8f2a.jpg"
+          },
+          "GL.COPPER MATT": {
+            "active": true,
+            "image": "https://cdn.bikedekho.com/processedimages/tvs/jupiter/source/jupiter6a2fc2373a3de.jpg"
+          }
+        }
+      },
+      "DRUM SXC": {
+        "active": true,
+        "image": "https://cdn.bikedekho.com/processedimages/tvs/jupiter/source/jupiter6a2fc23703a8c.jpg",
+        "colors": {
+          "DAWN BLUE MATT": {
+            "active": true,
+            "image": "https://cdn.bikedekho.com/processedimages/tvs/jupiter/source/jupiter6a2fc23703a8c.jpg"
+          },
+          "STRLT BLUE": {
+            "active": true,
+            "image": "https://cdn.bikedekho.com/processedimages/tvs/jupiter/source/jupiter6a2fc4b6e8f2a.jpg"
+          },
+          "GL.COPPER MATT": {
+            "active": true,
+            "image": "https://cdn.bikedekho.com/processedimages/tvs/jupiter/source/jupiter6a2fc2373a3de.jpg"
+          }
+        }
+      },
+      "SMW": {
+        "active": true,
+        "image": "https://cdn.bikedekho.com/processedimages/tvs/jupiter/source/jupiter6a2fc3eeac3b5.jpg",
+        "colors": {
+          "WHITE": {
+            "active": true,
+            "image": "https://cdn.bikedekho.com/processedimages/tvs/jupiter/source/jupiter6a2fc3eeac3b5.jpg"
+          },
+          "T.GREY MATTE": {
+            "active": true,
+            "image": "https://cdn.bikedekho.com/processedimages/tvs/jupiter/source/jupiter6a2fc3ee12121.jpg"
+          },
+          "BLACK MATTE": {
+            "active": true,
+            "image": "https://cdn.bikedekho.com/processedimages/tvs/jupiter/source/jupiter6a2fc4b729a41.jpg"
+          },
+          "STRLT BLUE": {
+            "active": true,
+            "image": "https://cdn.bikedekho.com/processedimages/tvs/jupiter/source/jupiter6a2fc4b6e8f2a.jpg"
+          }
+        }
+      },
+      "DRUM ALLOY": {
+        "active": true,
+        "image": "https://cdn.bikedekho.com/processedimages/tvs/jupiter/source/jupiter6a2fc3ee7849b.jpg",
+        "colors": {
+          "RED": {
+            "active": true,
+            "image": "https://cdn.bikedekho.com/processedimages/tvs/jupiter/source/jupiter6a2fc3ee7849b.jpg"
+          },
+          "WHITE": {
+            "active": true,
+            "image": "https://cdn.bikedekho.com/processedimages/tvs/jupiter/source/jupiter6a2fc3eeac3b5.jpg"
+          },
+          "T.GREY MATTE": {
+            "active": true,
+            "image": "https://cdn.bikedekho.com/processedimages/tvs/jupiter/source/jupiter6a2fc3ee12121.jpg"
+          },
+          "STRLT BLUE": {
+            "active": true,
+            "image": "https://cdn.bikedekho.com/processedimages/tvs/jupiter/source/jupiter6a2fc4b6e8f2a.jpg"
+          }
+        }
+      },
+      "SPECIAL EDITION": {
+        "active": true,
+        "image": "https://cdn.bikedekho.com/processedimages/tvs/jupiter/source/jupiter6a2fc188ba22c.jpg",
+        "colors": {
+          "STARDUST BLACK": {
+            "active": true,
+            "image": "https://cdn.bikedekho.com/processedimages/tvs/jupiter/source/jupiter6a2fc188ba22c.jpg"
+          }
+        }
+      }
+    }
+  },
+  "APACHE RTX 300": {
+    "active": false,
+    "image": "https://cdn.bikedekho.com/processedimages/tvs/adv/source/adv698ed4c962888.jpg",
+    "variants": {}
+  },
+  "STAR CITY PLUS": {
+    "active": false,
+    "image": "https://cdn.bikedekho.com/processedimages/tvs/tvs-star-city-plus/source/tvs-star-city-plus68db9fd509079.jpg",
+    "variants": {}
+  },
+  "SCOOTY PEP PLUS": {
+    "active": false,
+    "image": "https://cdn.bikedekho.com/processedimages/tvs/tvs-scooty/source/tvs-scooty60069d82e1217.jpg",
+    "variants": {}
+  },
+  "WEGO": {
+    "active": false,
+    "image": "https://cdn.bikedekho.com/processedimages/tvs/tvs-wego/source/m_wego_61539842493.jpg",
+    "variants": {}
+  },
+  "VICTOR": {
+    "active": false,
+    "image": "https://cdn.bikedekho.com/processedimages/tvs/tvs-victor/source/m_victor_61539846543.jpg",
+    "variants": {}
+  },
+  "SCOOTY STREAK": {
+    "active": false,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/TVS_Scooty_Streak.jpg/960px-TVS_Scooty_Streak.jpg",
+    "variants": {}
   }
-]
+}

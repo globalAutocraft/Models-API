@@ -1,6 +1,6 @@
 # Vehicle Images API
 
-Serves vehicle model names and image URLs from the "Model Images" Google Sheet.
+Serves TVS vehicle images by **model → variant → colour**.
 
 ## Run locally
 
@@ -9,41 +9,53 @@ npm install
 npm start          # http://localhost:3000
 ```
 
+## Data format (`models.js`)
+
+```json
+{
+  "JUPITER 125": {
+    "active": true,
+    "image": "https://...",
+    "variants": {
+      "DISC DT SXC": {
+        "active": true,
+        "image": "https://...",
+        "colors": {
+          "Brown + White": { "active": true, "image": "https://..." }
+        }
+      }
+    }
+  }
+}
+```
+
+Each colour's image is a photo of that colour where one was found. If there isn't one, the colour uses the variant image, and the variant uses the model image when it has none of its own.
+
 ## Endpoints
 
 | Method | Path | Description |
 |---|---|---|
-| GET | `/api/models` | All models. Optional `?search=jupiter`, `?hasImage=true` |
-| GET | `/api/models/:slugOrName` | One model, e.g. `/api/models/tvs-raider-disc` |
-| GET | `/api/image?model=TVS RAIDER DISC` | `{ name, image }` for a model name (case-insensitive) |
-| GET | `/api/models/:slugOrName/image` | 302 redirect to the image, usable in `<img src>` |
+| GET | `/api/models` | Full catalogue. `?active=true` hides inactive models/variants/colours |
+| GET | `/api/models/:model` | One model with variants and colours |
+| GET | `/api/models/:model/variants/:variant` | One variant with colours |
+| GET | `/api/image?model=&variant=&color=` | `{ model, variant, color, image, matched }`. `variant` and `color` are optional |
+| GET | `/api/image/redirect?model=&variant=&color=` | 302 redirect to the image, usable in `<img src>` |
 
-## Use without a server (GitHub only)
-
-`models.json` holds the same data and can be fetched straight from GitHub:
-
-```js
-const models = await fetch("https://cdn.jsdelivr.net/gh/globalAutocraft/Models-API@main/models.json").then(r => r.json());
-const norm = (s) => s.toLowerCase().replace(/[^a-z0-9]+/g, "");
-const image = models.find((m) => norm(m.name) === norm("TVS RAIDER DISC"))?.image;
-```
+Name matching ignores case, spaces and punctuation, and a leading "TVS" on model names is optional. If a variant or colour isn't found, `/api/image` falls back to the next level up, and `matched` says which level was used (`model`, `variant` or `color`).
 
 ## Updating the data
 
-Edit the Google Sheet, then:
+Edit `models.js`, then:
 
 ```bash
-npm run sync       # regenerates models.js from the sheet
+npm run build:json   # refresh models.json for the static copy
 git commit -am "Update models" && git push   # Render redeploys automatically
 ```
 
-Models with an empty Image cell in the sheet get a fallback URL from `image-overrides.js`. A URL in the sheet always takes priority over the fallback.
+## Static copy (no server)
+
+`https://cdn.jsdelivr.net/gh/globalAutocraft/Models-API@main/models.json` has the same catalogue.
 
 ## Deploy to Render (free)
 
-1. Push this folder to a GitHub repo.
-2. On https://render.com: **New → Web Service** → connect the repo.
-3. Runtime: Node · Build command: `npm install` · Start command: `npm start` · Instance type: **Free**.
-4. Deploy. The URL looks like `https://vehicle-images-api.onrender.com`.
-
-Free instances sleep after 15 minutes of no traffic, so the first request after that takes about 30–50 seconds.
+The repo includes `render.yaml`: on Render, choose **New → Blueprint**, select this repo, then **Apply**.
