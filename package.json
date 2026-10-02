@@ -5,8 +5,8 @@
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
-    "build:json": "node scripts/build-json.js",
-    "seed": "node scripts/seed-firestore.js"
+    "seed": "node scripts/seed-firestore.js",
+    "export": "node scripts/export-firestore.js"
   },
   "engines": {
     "node": ">=18"

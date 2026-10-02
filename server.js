@@ -45,8 +45,9 @@ function resolveImage({ model, variant, color }) {
 app.get("/", (req, res) => {
   res.json({
     name: "Vehicle Images API",
-    models: Object.keys(catalog.get()).length,
-    dataSource: catalog.source(),
+    dataSource: "firestore",
+    ready: catalog.ready(),
+    models: catalog.ready() ? Object.keys(catalog.get()).length : 0,
     endpoints: {
       "GET /api/models": "Full catalogue: model -> variants -> colours, each with an image. ?active=true hides inactive entries",
       "GET /api/models/:model": "One model with its variants and colours",
@@ -58,6 +59,13 @@ app.get("/", (req, res) => {
 });
 
 app.get("/health", (req, res) => res.send("ok"));
+
+// Until the first Firestore load finishes (a second or two after startup), there is no data
+app.use("/api", (req, res, next) => {
+  if (catalog.ready()) return next();
+  if (!catalog.configured()) return res.status(503).json({ error: "Database not configured: FIREBASE_SERVICE_ACCOUNT is not set" });
+  res.set("Retry-After", "5").status(503).json({ error: "Catalogue is loading, try again shortly" });
+});
 
 app.get("/api/models", (req, res) => {
   if (req.query.active !== "true") return res.json(catalog.get());

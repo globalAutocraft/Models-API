@@ -1,12 +1,14 @@
-// Uploads models.js into the Firestore "models" collection (one document per model).
-// Usage: npm run seed -- path/to/service-account.json
-// Existing documents with the same model name are overwritten; others are left alone.
+// Uploads a catalogue JSON file into the Firestore "models" collection (one document per model).
+// Usage: npm run seed -- service-account.json path/to/catalogue.json
+// Documents with the same model name are overwritten; other models in Firestore are left alone.
+const fs = require("fs");
 const { connect, COLLECTION, docId } = require("../firebase");
-const catalog = require("../models");
 
 async function main() {
-  const db = connect(process.argv[2]);
-  if (!db) throw new Error("Pass the service-account JSON path, or set FIREBASE_SERVICE_ACCOUNT");
+  const [keyFile, dataFile] = process.argv.slice(2);
+  if (!dataFile) throw new Error("Usage: npm run seed -- service-account.json catalogue.json");
+  const db = connect(keyFile);
+  const catalog = JSON.parse(fs.readFileSync(dataFile, "utf8"));
 
   const batch = db.batch();
   Object.entries(catalog).forEach(([name, model], order) => {
