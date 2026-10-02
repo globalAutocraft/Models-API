@@ -6,7 +6,8 @@
   "scripts": {
     "start": "node server.js",
     "seed": "node scripts/seed-firestore.js",
-    "export": "node scripts/export-firestore.js"
+    "export": "node scripts/export-firestore.js",
+    "add-admin": "node scripts/add-admin.js"
   },
   "engines": {
     "node": ">=18"
