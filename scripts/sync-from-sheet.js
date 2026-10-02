@@ -62,6 +62,8 @@ async function main() {
     `// Source: https://docs.google.com/spreadsheets/d/${SHEET_ID}\n` +
     `module.exports = ${JSON.stringify(models, null, 2)};\n`;
   fs.writeFileSync(OUT_FILE, body);
+  // Static copy so other projects can fetch the data straight from GitHub, without a server
+  fs.writeFileSync(path.join(__dirname, "..", "models.json"), JSON.stringify(models, null, 2) + "\n");
 
   const missing = models.filter((m) => !m.image).length;
   console.log(`Wrote ${models.length} models to models.js (${missing} without an image).`);

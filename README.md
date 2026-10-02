@@ -18,6 +18,16 @@ npm start          # http://localhost:3000
 | GET | `/api/image?model=TVS RAIDER DISC` | `{ name, image }` for a model name (case-insensitive) |
 | GET | `/api/models/:slugOrName/image` | 302 redirect to the image, usable in `<img src>` |
 
+## Use without a server (GitHub only)
+
+`models.json` holds the same data and can be fetched straight from GitHub:
+
+```js
+const models = await fetch("https://cdn.jsdelivr.net/gh/globalAutocraft/Models-API@main/models.json").then(r => r.json());
+const norm = (s) => s.toLowerCase().replace(/[^a-z0-9]+/g, "");
+const image = models.find((m) => norm(m.name) === norm("TVS RAIDER DISC"))?.image;
+```
+
 ## Updating the data
 
 Edit the Google Sheet, then:
