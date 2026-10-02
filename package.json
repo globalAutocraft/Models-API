@@ -1,0 +1,17 @@
+{
+  "name": "vehicle-images-api",
+  "version": "1.0.0",
+  "description": "API that serves vehicle model names and image URLs",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "sync": "node scripts/sync-from-sheet.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.21.2"
+  }
+}
