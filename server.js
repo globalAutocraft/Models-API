@@ -1,6 +1,7 @@
 const express = require("express");
 const cors = require("cors");
 const catalog = require("./catalog");
+const { createRouter: createAdminRouter } = require("./admin-routes");
 
 const app = express();
 app.use(cors());
@@ -59,6 +60,9 @@ app.get("/", (req, res) => {
 });
 
 app.get("/health", (req, res) => res.send("ok"));
+
+// Write API (x-admin-secret header). Mounted before the readiness check: it talks to Firestore directly.
+app.use("/api/admin", createAdminRouter());
 
 // Until the first Firestore load finishes (a second or two after startup), there is no data
 app.use("/api", (req, res, next) => {

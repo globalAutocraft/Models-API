@@ -61,6 +61,35 @@ Name matching ignores case, spaces and punctuation, and a leading "TVS" on model
 
 `/api/*` returns **503** for a second or two after startup while the data loads, or if `FIREBASE_SERVICE_ACCOUNT` is missing.
 
+## Write API (for server-side callers)
+
+For trusted servers such as the Sales Apps Script. **Never call it from a browser:** the secret would be exposed. Every request needs the header `x-admin-secret: <ADMIN_API_SECRET>`. Without `ADMIN_API_SECRET` set on the server, these routes return 503.
+
+`:model`, `:variant` and `:color` match names the same forgiving way as the read API (`:model` also accepts the document id). URL-encode them. Bodies are JSON. `image` is an http(s) URL, or `""` to use the parent's image. `active` is `true`/`false`.
+
+| Method | Path | Body | Success |
+|---|---|---|---|
+| GET | `/api/admin/models` | none | 200 `{ models: [{ id, name, order, active, image, variants }] }`, raw: empty images stay empty |
+| POST | `/api/admin/models` | `{ name, image?, active? }` | 201 model |
+| PATCH | `/api/admin/models/:model` | any of `{ name, image, active, order }` | 200 model |
+| DELETE | `/api/admin/models/:model` | none | 200 `{ deleted, id, name }` |
+| POST | `/api/admin/models/:model/variants` | `{ name, image?, active? }` | 201 model |
+| PATCH | `/api/admin/models/:model/variants/:variant` | any of `{ name, image, active }` | 200 model |
+| DELETE | `/api/admin/models/:model/variants/:variant` | none | 200 model |
+| POST | `/api/admin/models/:model/variants/:variant/colors` | `{ name, image?, active? }` | 201 model |
+| PATCH | `/api/admin/models/:model/variants/:variant/colors/:color` | any of `{ name, image, active }` | 200 model |
+| DELETE | `/api/admin/models/:model/variants/:variant/colors/:color` | none | 200 model |
+
+- **Defaults:** `active` defaults to `true` and `image` to `""`.
+- **Renames:** renaming a variant keeps its colours.
+- **Errors:** they come back as `{ error }`:
+  - 400: invalid input
+  - 401: wrong secret
+  - 404: not found
+  - 409: the name already exists
+- **Concurrent edits:** each write is a Firestore transaction, so two edits to the same model can't overwrite each other.
+- **Visibility:** changes show up in the read API within seconds.
+
 ## Deploy to Render (free)
 
 The repo includes `render.yaml`: on Render, choose **New → Blueprint**, select this repo, then **Apply**. Then add the `FIREBASE_SERVICE_ACCOUNT` environment variable.
